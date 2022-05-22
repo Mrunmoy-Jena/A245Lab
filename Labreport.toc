@@ -8,6 +8,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Variation of fundamental laser output power with injection current}{3}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Calibration of removable attenuator}{4}{subsubsection*.4}%
+\contentsline {subsection}{\numberline {2.1.1}Calibration of removable attenuator}{4}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{7}{appendix.A}%
+\contentsline {subsection}{\numberline {2.1.2}Calculation of unattenuated power values above 19 $\mathbf {\mu }$W}{5}{subsection.2.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Appendix}{8}{appendix.A}%

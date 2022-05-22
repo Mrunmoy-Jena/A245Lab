@@ -16,7 +16,7 @@ In order to perform this experiment, a power meter was mounted on table in such 
 
 The set up for this experiment (along with attenuator attached) is shown in Figure \ref{figexpt1}. With this setup in place, the injection current is increased from 0 to 280 mA in increments of 5 mA, and the corresponding values of output power are noted. Since the power meter sensor becomes non-linear for powers above 20 mW, it becomes necessary to use an attenuator. For our measurements, we took measurements both with and without attenuator in the unattenuated power range from 28.2 $\mu$W to 19000 $\mu$W (19 mW). Both the unattenuated and attenuated power values are necessary to be recorded over at least some data points in order to perform the calibration and extract a calibration factor from it. Beyond this range, the power is only measured with the attenuator attached onto the power meter, due to the aforementioned reason of non-linearity of the sensor. The attenuator for the experiment is a `1000:1' attenuator (meaning that ideally it would reduce the unattenuated power by a factor of 1000). The recorded data can be found in \ref{tab1}. The values measured without attenuator are listed under the column `$P_{unatt}$' and the measured power values with attenuator are under the column `$P_{att}$'. From now on, all errors stated in the tables should be assumed to be instrumental errors (least count of the measuring instrument), unless otherwise stated.
 
-\subsubsection{Calibration of removable attenuator}
+\subsection{Calibration of removable attenuator}
 In order to find the calibration factor, the data for the attenuated power vs. unattenuated power is plotted and a linear fit is applied to this dataset. To carry out the curve fitting procedure using the data points and some initial guess parameters, we used the function \texttt{curve\_fit()} from the \texttt{scipy.optimize} module for \textit{Python}. The data points (along with x-y error bars) and the linear fit modelled onto them is shown in Figure \ref{figexpt2}.
 
 \begin{figure}[H]
@@ -28,6 +28,7 @@ In order to find the calibration factor, the data for the attenuated power vs. u
 
 The linear fit chosen is of the form: 
 \begin{equation}
+\label{eqn:linearfit1}
 P_{att}=aP_{unatt}+b
 \end{equation}
 
@@ -38,4 +39,28 @@ Now we use the commonly applied reduced $\chi^{2}$ test, to find the goodness of
 \end{equation}
 where $y_{i}(x_{i})$ are the recorded y values (attenuated power in this case), $f_{i}(x_{i};p)$ is are y values from the fitting function with $p$ parameters (in this case the linear fit function with parameters $a$ and $b$).
 
-Surprisingly, we get an extremely large reduced $\chi^{2}$ value of 174.69. 
+Surprisingly, we get an extremely large reduced $\chi^{2}$ value of 174.69. Naively, one would conclude that since $\chi^{2}\gg 1$, the model is a 'bad fit'. However, on looking more carefully at the data points, we make two observations:
+\begin{itemize}
+\item We find that the error in the first five data points (corresponding to current ($I$) values lying in the range of 50 to 70 mA) is an order of magnitude smaller than for the remaining data points. Given that the order $\mathcal{O}(y_{i}(x_{i})-f_{i}(x_{i};p))$ remains the same (more or less), the $\chi^{2}$ is sensitive to the order of the squares of the y-errors $\mathcal{O}(\chi^{2})\sim \mathcal{O}\left(1/\sigma_{i}^{2}\right)$. As such, the contribution from the very small errors of the first five data values would be around 100 times compared to that from the remaining y values.
+\item Moreover, we only have a small number of data points ($N=8$), which we are trying to fit with two parameters ($p=2$), this restricts the degrees of freedom to only 6 ($df=N-p$). Again this leads to a large reduced $\chi^{2}$ value.
+\end{itemize}
+The combination of both these factors shows that in the case of small data sets, the error on the data points largely affects the reduced $\chi^{2}$ value. Indeed, this is confirmed in a paper by Andrae et.al. \cite{https://doi.org/10.48550/arxiv.1012.3754}. However, here, since we are concerned with only extracting the calibration factor, we just want to check how well the linear regression line approximates the actual data values. For this we calculate the $R^{2}$ (coefficient of determination): 
+\begin{equation}
+R^{2}=1-\displaystyle\dfrac{\sum_{i}\left(y_{i}-f_{i}(x_{i};p)\right)^{2}}{\sum_{i}\left(y_{i}-\bar{y}\right)^{2}}
+\end{equation}
+where $\bar{y}$ is the mean of all the recorded data values
+
+The $R^{2}$ value indeed comes out to be very close to 1 ($R^{2}=0.997$), meaning that our linear model explains 99.7\% of all the variation of the y value (attenuated power) around its mean.
+
+\subsection{Calculation of unattenuated power values above 19 $\mathbf{\mu}$W}
+we recall that after the unattenuated power reached a value of 19 $\mu$W, only attenuated power values were recorded. Therefore, in order to find the dependence of unattenuated power with the injection current, we need to use to calculate unattenuated power values above 19 $\mu$W first, by applying the calibration factor to the attenuated power values. From Eq. \ref{eqn:linearfit1} we get:
+\begin{equation}
+\label{eqn:punattfrompatt}
+P_{unatt}=\dfrac{P_{att}-b}{a}
+\end{equation}
+In addition to this, the errors on each of these calculated values will no longer be instrumental, but will be calculated from error propagation:
+\begin{equation}
+\label{eqn:errorprop1}
+\Delta P_{unatt}=\sqrt{\left(\dfrac{\Delta P_{att}}{a}\right)^{2}+\left(\dfrac{\Delta b}{a}\right)^{2}+\left(\dfrac{\Delta a(P_{att}-b)}{a^{2}}\right)^{2}}
+\end{equation}
+These calculated unattenuated power values and their errors are also included in Table \ref{tab1}.

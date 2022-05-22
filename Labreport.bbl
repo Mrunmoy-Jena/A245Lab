@@ -37,6 +37,50 @@
       \field{labeltitlesource}{title}
       \field{title}{{A}245 Experiment Description}
     \endentry
+    \entry{https://doi.org/10.48550/arxiv.1012.3754}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=564fd636dac8509efdc3e76633d69468}{%
+           family={Andrae},
+           familyi={A\bibinitperiod},
+           given={Rene},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6019e3184e552828171982136e4b916f}{%
+           family={Schulze-Hartung},
+           familyi={S\bibinithyphendelim H\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e73f941e6d8292da03236e81b222850c}{%
+           family={Melchior},
+           familyi={M\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{227af69b1f16d4f1488db4f40f19f5af}
+      \strng{fullhash}{393b87df6d07259dd527339bff903b51}
+      \strng{bibnamehash}{393b87df6d07259dd527339bff903b51}
+      \strng{authorbibnamehash}{393b87df6d07259dd527339bff903b51}
+      \strng{authornamehash}{227af69b1f16d4f1488db4f40f19f5af}
+      \strng{authorfullhash}{393b87df6d07259dd527339bff903b51}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dos and don'ts of reduced chi-squared}
+      \field{year}{2010}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1012.3754
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1012.3754
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1012.3754
+      \endverb
+      \keyw{Instrumentation and Methods for Astrophysics (astro-ph.IM),Data Analysis,Statistics and Probability (physics.data-an),Methodology (stat.ME),FOS: Physical sciences,FOS: Physical sciences,FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
