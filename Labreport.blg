@@ -1,15 +1,15 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'Labreport.blg'
-[112] biber-MSWIN64:340> INFO - === 
-[148] Biber.pm:415> INFO - Reading 'Labreport.bcf'
-[262] Biber.pm:952> INFO - Found 2 citekeys in bib section 0
-[277] Biber.pm:4340> INFO - Processing section 0
-[289] Biber.pm:4531> INFO - Looking for bibtex format file 'References.bib' for section 0
-[330] bibtex.pm:1689> INFO - LaTeX decoding ...
-[335] bibtex.pm:1494> INFO - Found BibTeX data source 'References.bib'
-[378] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[378] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[378] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[378] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[386] bbl.pm:654> INFO - Writing 'Labreport.bbl' with encoding 'UTF-8'
-[387] bbl.pm:757> INFO - Output to Labreport.bbl
+[124] biber-MSWIN64:340> INFO - === 
+[161] Biber.pm:415> INFO - Reading 'Labreport.bcf'
+[279] Biber.pm:952> INFO - Found 2 citekeys in bib section 0
+[294] Biber.pm:4340> INFO - Processing section 0
+[306] Biber.pm:4531> INFO - Looking for bibtex format file 'References.bib' for section 0
+[348] bibtex.pm:1689> INFO - LaTeX decoding ...
+[353] bibtex.pm:1494> INFO - Found BibTeX data source 'References.bib'
+[391] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[391] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[392] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[392] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[398] bbl.pm:654> INFO - Writing 'Labreport.bbl' with encoding 'UTF-8'
+[399] bbl.pm:757> INFO - Output to Labreport.bbl
