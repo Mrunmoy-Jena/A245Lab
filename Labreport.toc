@@ -6,4 +6,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Experiment and Analysis of Results}{3}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{4}{appendix.A}%
+\contentsline {section}{\numberline {2.1}Variation of fundamental laser output power with injection current}{3}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Calibration of removable attenuator}{4}{subsubsection*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Appendix}{7}{appendix.A}%

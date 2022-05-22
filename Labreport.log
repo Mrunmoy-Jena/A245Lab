@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  22 MAY 2022 00:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  22 MAY 2022 18:00
 entering extended mode
 **./Labreport.tex
 (Labreport.tex
@@ -99,6 +99,26 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.
+sty
+Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
+\LTleft=\skip52
+\LTright=\skip53
+\LTpre=\skip54
+\LTpost=\skip55
+\LTchunksize=\count269
+\LTcapwidth=\dimen148
+\LT@head=\box52
+\LT@firsthead=\box53
+\LT@foot=\box54
+\LT@lastfoot=\box55
+\LT@gbox=\box56
+\LT@cols=\count270
+\LT@rows=\count271
+\c@LT@tables=\count272
+\c@LT@chunks=\count273
+\LT@p@ftn=\toks21
+)
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometr
 y.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -106,7 +126,7 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.
 sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks21
+\KV@toks@=\toks22
 )
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.s
 ty
@@ -116,18 +136,18 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 y
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count269
-\Gm@cntv=\count270
-\c@Gm@tempcnt=\count271
-\Gm@bindingoffset=\dimen148
-\Gm@wd@mp=\dimen149
-\Gm@odd@mp=\dimen150
-\Gm@even@mp=\dimen151
-\Gm@layoutwidth=\dimen152
-\Gm@layoutheight=\dimen153
-\Gm@layouthoffset=\dimen154
-\Gm@layoutvoffset=\dimen155
-\Gm@dimlist=\toks22
+\Gm@cnth=\count274
+\Gm@cntv=\count275
+\c@Gm@tempcnt=\count276
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks23
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometr
 y.cfg))
@@ -153,8 +173,8 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 tex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen156
-\Gin@req@width=\dimen157
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
 )
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
 Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
@@ -169,84 +189,84 @@ LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/layouts\layouts.
 sty
 Package: layouts 2009/09/02 v2.6d graphical depiction of document elements
-\l@ylen=\skip52
-\layoutsbox=\box52
-\l@youtunitlength=\skip53
-\l@youtlinethick=\skip54
-\l@youtlinethickii=\skip55
-\l@ysetupparskip=\skip56
-\l@ysetupbaselineskip=\skip57
-\l@yonem=\skip58
-\l@yonex=\skip59
-\l@ylmarg=\skip60
-\l@yrmarg=\skip61
-\l@yitmindent=\skip62
-\l@ylblwidth=\skip63
-\l@ylblsep=\skip64
-\l@ylparindent=\skip65
-\l@ytsep=\skip66
-\l@ypskip=\skip67
-\l@yptsep=\skip68
-\l@ypsep=\skip69
-\l@yitmsep=\skip70
-\l@ytok=\toks23
-\l@youtpw=\count272
-\l@youtph=\count273
-\l@youthpi=\count274
-\l@youthpii=\count275
-\l@youthpiii=\count276
-\l@youthpiv=\count277
-\l@youthpv=\count278
-\l@youthpvi=\count279
-\l@youthpvii=\count280
-\l@youtparskip=\count281
-\l@youtvpi=\count282
-\l@youtvpii=\count283
-\l@youtvpiii=\count284
-\l@youtvpiv=\count285
-\l@youtvpv=\count286
-\l@youtvpvi=\count287
-\l@youtvpvii=\count288
-\l@youthdo=\count289
-\l@youthdi=\count290
-\l@youthdii=\count291
-\l@youthdiii=\count292
-\l@youthdiv=\count293
-\l@youthdv=\count294
-\l@youthdvi=\count295
-\l@youthdvii=\count296
-\l@youtvdo=\count297
-\l@youtvdi=\count298
-\l@youtvdii=\count299
-\l@youtvdiii=\count300
-\l@youtvdiv=\count301
-\l@youtvdv=\count302
-\l@youtvdvi=\count303
-\l@youtvdvii=\count304
-\l@youtvdviii=\count305
-\l@youtxci=\count306
-\l@youtxcii=\count307
-\l@youtxciii=\count308
-\l@youtxciv=\count309
-\l@youtxcv=\count310
-\l@youtxcvi=\count311
-\l@youtyci=\count312
-\l@youtycii=\count313
-\l@youtyciii=\count314
-\l@youtyciv=\count315
-\l@youtycv=\count316
-\l@youtycvi=\count317
-\l@youtycvii=\count318
-\l@youtycviii=\count319
-\l@youtxco=\count320
-\l@youtyco=\count321
-\l@ytempdima=\skip71
-\stockwidth=\skip72
-\stockheight=\skip73
-\trimedge=\skip74
-\trimtop=\skip75
-\uppermargin=\skip76
-\spinemargin=\skip77
+\l@ylen=\skip56
+\layoutsbox=\box57
+\l@youtunitlength=\skip57
+\l@youtlinethick=\skip58
+\l@youtlinethickii=\skip59
+\l@ysetupparskip=\skip60
+\l@ysetupbaselineskip=\skip61
+\l@yonem=\skip62
+\l@yonex=\skip63
+\l@ylmarg=\skip64
+\l@yrmarg=\skip65
+\l@yitmindent=\skip66
+\l@ylblwidth=\skip67
+\l@ylblsep=\skip68
+\l@ylparindent=\skip69
+\l@ytsep=\skip70
+\l@ypskip=\skip71
+\l@yptsep=\skip72
+\l@ypsep=\skip73
+\l@yitmsep=\skip74
+\l@ytok=\toks24
+\l@youtpw=\count277
+\l@youtph=\count278
+\l@youthpi=\count279
+\l@youthpii=\count280
+\l@youthpiii=\count281
+\l@youthpiv=\count282
+\l@youthpv=\count283
+\l@youthpvi=\count284
+\l@youthpvii=\count285
+\l@youtparskip=\count286
+\l@youtvpi=\count287
+\l@youtvpii=\count288
+\l@youtvpiii=\count289
+\l@youtvpiv=\count290
+\l@youtvpv=\count291
+\l@youtvpvi=\count292
+\l@youtvpvii=\count293
+\l@youthdo=\count294
+\l@youthdi=\count295
+\l@youthdii=\count296
+\l@youthdiii=\count297
+\l@youthdiv=\count298
+\l@youthdv=\count299
+\l@youthdvi=\count300
+\l@youthdvii=\count301
+\l@youtvdo=\count302
+\l@youtvdi=\count303
+\l@youtvdii=\count304
+\l@youtvdiii=\count305
+\l@youtvdiv=\count306
+\l@youtvdv=\count307
+\l@youtvdvi=\count308
+\l@youtvdvii=\count309
+\l@youtvdviii=\count310
+\l@youtxci=\count311
+\l@youtxcii=\count312
+\l@youtxciii=\count313
+\l@youtxciv=\count314
+\l@youtxcv=\count315
+\l@youtxcvi=\count316
+\l@youtyci=\count317
+\l@youtycii=\count318
+\l@youtyciii=\count319
+\l@youtyciv=\count320
+\l@youtycv=\count321
+\l@youtycvi=\count322
+\l@youtycvii=\count323
+\l@youtycviii=\count324
+\l@youtxco=\count325
+\l@youtyco=\count326
+\l@ytempdima=\skip75
+\stockwidth=\skip76
+\stockheight=\skip77
+\trimedge=\skip78
+\trimtop=\skip79
+\uppermargin=\skip80
+\spinemargin=\skip81
 )
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/sectsty\sectsty.
 sty
@@ -285,30 +305,30 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbo
 x.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count322
+\etb@tempcnta=\count327
 ))
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumite
 m.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip78
-\enit@outerparindent=\dimen158
-\enit@toks=\toks24
-\enit@inbox=\box53
-\enit@count@id=\count323
-\enitdp@description=\count324
+\labelindent=\skip82
+\enit@outerparindent=\dimen159
+\enit@toks=\toks25
+\enit@inbox=\box58
+\enit@count@id=\count328
+\enitdp@description=\count329
 )
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlese
 c.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box54
-\beforetitleunit=\skip79
-\aftertitleunit=\skip80
-\ttl@plus=\dimen159
-\ttl@minus=\dimen160
-\ttl@toksa=\toks25
-\titlewidth=\dimen161
-\titlewidthlast=\dimen162
-\titlewidthfirst=\dimen163
+\ttl@box=\box59
+\beforetitleunit=\skip83
+\aftertitleunit=\skip84
+\ttl@plus=\dimen160
+\ttl@minus=\dimen161
+\ttl@toksa=\toks26
+\titlewidth=\dimen162
+\titlewidthlast=\dimen163
+\titlewidthfirst=\dimen164
 )
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/was\gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
@@ -319,16 +339,16 @@ Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count325
-\calc@Bcount=\count326
-\calc@Adimen=\dimen164
-\calc@Bdimen=\dimen165
-\calc@Askip=\skip81
-\calc@Bskip=\skip82
+\calc@Acount=\count330
+\calc@Bcount=\count331
+\calc@Adimen=\dimen165
+\calc@Bdimen=\dimen166
+\calc@Askip=\skip85
+\calc@Bskip=\skip86
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count327
-\calc@Cskip=\skip83
+\calc@Ccount=\count332
+\calc@Cskip=\skip87
 )
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetu
 p.sty
@@ -338,17 +358,17 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count328
-\l_MT_multwidth_dim=\dimen166
-\origjot=\skip84
-\l_MT_shortvdotswithinadjustabove_dim=\dimen167
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen168
-\l_MT_above_intertext_sep=\dimen169
-\l_MT_below_intertext_sep=\dimen170
-\l_MT_above_shortintertext_sep=\dimen171
-\l_MT_below_shortintertext_sep=\dimen172
-\xmathstrut@box=\box55
-\xmathstrut@dim=\dimen173
+\g_MT_multlinerow_int=\count333
+\l_MT_multwidth_dim=\dimen167
+\origjot=\skip88
+\l_MT_shortvdotswithinadjustabove_dim=\dimen168
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen169
+\l_MT_above_intertext_sep=\dimen170
+\l_MT_below_intertext_sep=\dimen171
+\l_MT_above_shortintertext_sep=\dimen172
+\l_MT_below_shortintertext_sep=\dimen173
+\xmathstrut@box=\box60
+\xmathstrut@dim=\dimen174
 )
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
@@ -357,17 +377,17 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.s
 ty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks26
-\verbatim@line=\toks27
+\every@verbatim=\toks27
+\verbatim@line=\toks28
 \verbatim@in@stream=\read2
 )
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.
 sty
 Package: siunitx 2021-06-29 v3.0.17 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen174
-\l__siunitx_angle_marker_box=\box56
-\l__siunitx_angle_unit_box=\box57
-\l__siunitx_compound_count_int=\count329
+\l__siunitx_angle_tmp_dim=\dimen175
+\l__siunitx_angle_marker_box=\box61
+\l__siunitx_angle_unit_box=\box62
+\l__siunitx_compound_count_int=\count334
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/translations\tra
 nslations.sty
@@ -387,11 +407,11 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
-\l__siunitx_number_exponent_fixed_int=\count330
-\l__siunitx_number_min_decimal_int=\count331
-\l__siunitx_number_min_integer_int=\count332
-\l__siunitx_number_round_precision_int=\count333
-\l__siunitx_number_group_minimum_int=\count334
+\l__siunitx_number_exponent_fixed_int=\count335
+\l__siunitx_number_min_decimal_int=\count336
+\l__siunitx_number_min_integer_int=\count337
+\l__siunitx_number_round_precision_int=\count338
+\l__siunitx_number_group_minimum_int=\count339
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.s
 ty
@@ -403,18 +423,18 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
 )
-\l__siunitx_table_tmp_box=\box58
-\l__siunitx_table_tmp_dim=\dimen175
-\l__siunitx_table_column_width_dim=\dimen176
-\l__siunitx_table_integer_box=\box59
-\l__siunitx_table_decimal_box=\box60
-\l__siunitx_table_before_box=\box61
-\l__siunitx_table_after_box=\box62
-\l__siunitx_table_before_dim=\dimen177
-\l__siunitx_table_carry_dim=\dimen178
-\l__siunitx_unit_tmp_int=\count335
-\l__siunitx_unit_position_int=\count336
-\l__siunitx_unit_total_int=\count337
+\l__siunitx_table_tmp_box=\box63
+\l__siunitx_table_tmp_dim=\dimen176
+\l__siunitx_table_column_width_dim=\dimen177
+\l__siunitx_table_integer_box=\box64
+\l__siunitx_table_decimal_box=\box65
+\l__siunitx_table_before_box=\box66
+\l__siunitx_table_after_box=\box67
+\l__siunitx_table_before_dim=\dimen178
+\l__siunitx_table_carry_dim=\dimen179
+\l__siunitx_unit_tmp_int=\count340
+\l__siunitx_unit_position_int=\count341
+\l__siunitx_unit_total_int=\count342
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3key
 s2e\l3keys2e.sty
@@ -425,20 +445,20 @@ Package: expl3 2021-06-01 L3 programming layer (loader)
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3back
 end-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count338
-\l__pdf_internal_box=\box63
+\l__color_backend_stack_int=\count343
+\l__pdf_internal_box=\box68
 ))
 Package: l3keys2e 2021-06-01 LaTeX2e option processing using LaTeX3 keys
 )
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
-\col@sep=\dimen179
-\ar@mcellbox=\box64
-\extrarowheight=\dimen180
-\NC@list=\toks28
-\extratabsurround=\skip85
-\backup@length=\skip86
-\ar@cellbox=\box65
+\col@sep=\dimen180
+\ar@mcellbox=\box69
+\extrarowheight=\dimen181
+\NC@list=\toks29
+\extratabsurround=\skip89
+\backup@length=\skip90
+\ar@cellbox=\box70
 ))
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/physics\physics.
 sty
@@ -467,25 +487,25 @@ Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
 x.def
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks29
-\@arclen=\dimen181
-\@arcrad=\dimen182
-\pIIe@tempdima=\dimen183
-\pIIe@tempdimb=\dimen184
-\pIIe@tempdimc=\dimen185
-\pIIe@tempdimd=\dimen186
-\pIIe@tempdime=\dimen187
-\pIIe@tempdimf=\dimen188
+\pIIe@GRAPH=\toks30
+\@arclen=\dimen182
+\@arcrad=\dimen183
+\pIIe@tempdima=\dimen184
+\pIIe@tempdimb=\dimen185
+\pIIe@tempdimc=\dimen186
+\pIIe@tempdimd=\dimen187
+\pIIe@tempdime=\dimen188
+\pIIe@tempdimf=\dimen189
 )
-\diagbox@boxa=\box66
-\diagbox@boxb=\box67
-\diagbox@boxm=\box68
-\diagbox@wd=\dimen189
-\diagbox@ht=\dimen190
-\diagbox@insepl=\dimen191
-\diagbox@insepr=\dimen192
-\diagbox@outsepl=\dimen193
-\diagbox@outsepr=\dimen194
+\diagbox@boxa=\box71
+\diagbox@boxb=\box72
+\diagbox@boxm=\box73
+\diagbox@wd=\dimen190
+\diagbox@ht=\dimen191
+\diagbox@insepl=\dimen192
+\diagbox@insepr=\dimen193
+\diagbox@outsepl=\dimen194
+\diagbox@outsepr=\dimen195
 )
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.
 sty
@@ -494,23 +514,28 @@ Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3
 .sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen195
-\captionmargin@=\dimen196
-\captionwidth=\dimen197
-\caption@tempdima=\dimen198
-\caption@indent=\dimen199
-\caption@parindent=\dimen256
-\caption@hangindent=\dimen257
+\captionmargin=\dimen196
+\captionmargin@=\dimen197
+\captionwidth=\dimen198
+\caption@tempdima=\dimen199
+\caption@indent=\dimen256
+\caption@parindent=\dimen257
+\caption@hangindent=\dimen258
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count339
-\c@continuedfloat=\count340
-)
+\c@caption@flags=\count344
+\c@continuedfloat=\count345
+Package caption Info: longtable package is loaded.
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaptio
+n.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+))
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcapti
 on.sty
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
-\c@subfigure=\count341
-\c@subtable=\count342
+\c@subfigure=\count346
+\c@subtable=\count347
 )
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperre
 f.sty
@@ -536,9 +561,9 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen258
-\Hy@linkcounter=\count343
-\Hy@pagecounter=\count344
+\@linkdim=\dimen259
+\Hy@linkcounter=\count348
+\Hy@pagecounter=\count349
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.
 def
@@ -559,7 +584,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 mds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count345
+\Hy@SavedSpaceFactor=\count350
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.d
 ef
@@ -574,9 +599,9 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count346
+\c@Hy@tempcnt=\count351
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen259
+\XeTeXLinkMargin=\dimen260
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.
 sty
@@ -587,9 +612,9 @@ intcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count347
-\Field@Width=\dimen260
-\Fld@charsize=\dimen261
+\Fld@menulength=\count352
+\Field@Width=\dimen261
+\Fld@charsize=\dimen262
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
@@ -605,9 +630,9 @@ x.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count348
-\c@Item=\count349
-\c@Hfootnote=\count350
+\Hy@abspage=\count353
+\c@Item=\count354
+\c@Hfootnote=\count355
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -621,8 +646,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count351
-\c@bookmark@seq@number=\count352
+\Fld@listcount=\count356
+\c@bookmark@seq@number=\count357
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\r
 erunfilecheck.sty
@@ -635,7 +660,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip87
+\Hy@SectionHShift=\skip91
 )
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblate
 x.sty
@@ -644,7 +669,7 @@ Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.st
 y
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count353
+\lrq@indent=\count358
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.de
 f
@@ -653,62 +678,62 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count354
-\c@listtotal=\count355
-\c@listcount=\count356
-\c@liststart=\count357
-\c@liststop=\count358
-\c@citecount=\count359
-\c@citetotal=\count360
-\c@multicitecount=\count361
-\c@multicitetotal=\count362
-\c@instcount=\count363
-\c@maxnames=\count364
-\c@minnames=\count365
-\c@maxitems=\count366
-\c@minitems=\count367
-\c@citecounter=\count368
-\c@maxcitecounter=\count369
-\c@savedcitecounter=\count370
-\c@uniquelist=\count371
-\c@uniquename=\count372
-\c@refsection=\count373
-\c@refsegment=\count374
-\c@maxextratitle=\count375
-\c@maxextratitleyear=\count376
-\c@maxextraname=\count377
-\c@maxextradate=\count378
-\c@maxextraalpha=\count379
-\c@abbrvpenalty=\count380
-\c@highnamepenalty=\count381
-\c@lownamepenalty=\count382
-\c@maxparens=\count383
-\c@parenlevel=\count384
-\blx@tempcnta=\count385
-\blx@tempcntb=\count386
-\blx@tempcntc=\count387
-\blx@maxsection=\count388
-\blx@maxsegment@0=\count389
-\blx@notetype=\count390
-\blx@parenlevel@text=\count391
-\blx@parenlevel@foot=\count392
-\blx@sectionciteorder@0=\count393
-\blx@entrysetcounter=\count394
-\blx@biblioinstance=\count395
-\labelnumberwidth=\skip88
-\labelalphawidth=\skip89
-\biblabelsep=\skip90
-\bibitemsep=\skip91
-\bibnamesep=\skip92
-\bibinitsep=\skip93
-\bibparsep=\skip94
-\bibhang=\skip95
+\c@tabx@nest=\count359
+\c@listtotal=\count360
+\c@listcount=\count361
+\c@liststart=\count362
+\c@liststop=\count363
+\c@citecount=\count364
+\c@citetotal=\count365
+\c@multicitecount=\count366
+\c@multicitetotal=\count367
+\c@instcount=\count368
+\c@maxnames=\count369
+\c@minnames=\count370
+\c@maxitems=\count371
+\c@minitems=\count372
+\c@citecounter=\count373
+\c@maxcitecounter=\count374
+\c@savedcitecounter=\count375
+\c@uniquelist=\count376
+\c@uniquename=\count377
+\c@refsection=\count378
+\c@refsegment=\count379
+\c@maxextratitle=\count380
+\c@maxextratitleyear=\count381
+\c@maxextraname=\count382
+\c@maxextradate=\count383
+\c@maxextraalpha=\count384
+\c@abbrvpenalty=\count385
+\c@highnamepenalty=\count386
+\c@lownamepenalty=\count387
+\c@maxparens=\count388
+\c@parenlevel=\count389
+\blx@tempcnta=\count390
+\blx@tempcntb=\count391
+\blx@tempcntc=\count392
+\blx@maxsection=\count393
+\blx@maxsegment@0=\count394
+\blx@notetype=\count395
+\blx@parenlevel@text=\count396
+\blx@parenlevel@foot=\count397
+\blx@sectionciteorder@0=\count398
+\blx@entrysetcounter=\count399
+\blx@biblioinstance=\count400
+\labelnumberwidth=\skip92
+\labelalphawidth=\skip93
+\biblabelsep=\skip94
+\bibitemsep=\skip95
+\bibnamesep=\skip96
+\bibinitsep=\skip97
+\bibparsep=\skip98
+\bibhang=\skip99
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language79
-\c@mincomprange=\count396
-\c@maxcomprange=\count397
-\c@mincompwidth=\count398
+\c@mincomprange=\count401
+\c@maxcomprange=\count402
+\c@mincompwidth=\count403
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -725,88 +750,88 @@ File: phys.dbx 2019/12/03 v1.1b biblatex database model extension
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count399
-\c@savedafterword=\count400
-\c@annotator=\count401
-\c@savedannotator=\count402
-\c@author=\count403
-\c@savedauthor=\count404
-\c@bookauthor=\count405
-\c@savedbookauthor=\count406
-\c@commentator=\count407
-\c@savedcommentator=\count408
-\c@editor=\count409
-\c@savededitor=\count410
-\c@editora=\count411
-\c@savededitora=\count412
-\c@editorb=\count413
-\c@savededitorb=\count414
-\c@editorc=\count415
-\c@savededitorc=\count416
-\c@foreword=\count417
-\c@savedforeword=\count418
-\c@holder=\count419
-\c@savedholder=\count420
-\c@introduction=\count421
-\c@savedintroduction=\count422
-\c@namea=\count423
-\c@savednamea=\count424
-\c@nameb=\count425
-\c@savednameb=\count426
-\c@namec=\count427
-\c@savednamec=\count428
-\c@translator=\count429
-\c@savedtranslator=\count430
-\c@shortauthor=\count431
-\c@savedshortauthor=\count432
-\c@shorteditor=\count433
-\c@savedshorteditor=\count434
-\c@labelname=\count435
-\c@savedlabelname=\count436
-\c@institution=\count437
-\c@savedinstitution=\count438
-\c@lista=\count439
-\c@savedlista=\count440
-\c@listb=\count441
-\c@savedlistb=\count442
-\c@listc=\count443
-\c@savedlistc=\count444
-\c@listd=\count445
-\c@savedlistd=\count446
-\c@liste=\count447
-\c@savedliste=\count448
-\c@listf=\count449
-\c@savedlistf=\count450
-\c@location=\count451
-\c@savedlocation=\count452
-\c@organization=\count453
-\c@savedorganization=\count454
-\c@origlocation=\count455
-\c@savedoriglocation=\count456
-\c@origpublisher=\count457
-\c@savedorigpublisher=\count458
-\c@publisher=\count459
-\c@savedpublisher=\count460
-\c@language=\count461
-\c@savedlanguage=\count462
-\c@origlanguage=\count463
-\c@savedoriglanguage=\count464
-\c@pageref=\count465
-\c@savedpageref=\count466
-\shorthandwidth=\skip96
-\shortjournalwidth=\skip97
-\shortserieswidth=\skip98
-\shorttitlewidth=\skip99
-\shortauthorwidth=\skip100
-\shorteditorwidth=\skip101
-\locallabelnumberwidth=\skip102
-\locallabelalphawidth=\skip103
-\localshorthandwidth=\skip104
-\localshortjournalwidth=\skip105
-\localshortserieswidth=\skip106
-\localshorttitlewidth=\skip107
-\localshortauthorwidth=\skip108
-\localshorteditorwidth=\skip109
+\c@afterword=\count404
+\c@savedafterword=\count405
+\c@annotator=\count406
+\c@savedannotator=\count407
+\c@author=\count408
+\c@savedauthor=\count409
+\c@bookauthor=\count410
+\c@savedbookauthor=\count411
+\c@commentator=\count412
+\c@savedcommentator=\count413
+\c@editor=\count414
+\c@savededitor=\count415
+\c@editora=\count416
+\c@savededitora=\count417
+\c@editorb=\count418
+\c@savededitorb=\count419
+\c@editorc=\count420
+\c@savededitorc=\count421
+\c@foreword=\count422
+\c@savedforeword=\count423
+\c@holder=\count424
+\c@savedholder=\count425
+\c@introduction=\count426
+\c@savedintroduction=\count427
+\c@namea=\count428
+\c@savednamea=\count429
+\c@nameb=\count430
+\c@savednameb=\count431
+\c@namec=\count432
+\c@savednamec=\count433
+\c@translator=\count434
+\c@savedtranslator=\count435
+\c@shortauthor=\count436
+\c@savedshortauthor=\count437
+\c@shorteditor=\count438
+\c@savedshorteditor=\count439
+\c@labelname=\count440
+\c@savedlabelname=\count441
+\c@institution=\count442
+\c@savedinstitution=\count443
+\c@lista=\count444
+\c@savedlista=\count445
+\c@listb=\count446
+\c@savedlistb=\count447
+\c@listc=\count448
+\c@savedlistc=\count449
+\c@listd=\count450
+\c@savedlistd=\count451
+\c@liste=\count452
+\c@savedliste=\count453
+\c@listf=\count454
+\c@savedlistf=\count455
+\c@location=\count456
+\c@savedlocation=\count457
+\c@organization=\count458
+\c@savedorganization=\count459
+\c@origlocation=\count460
+\c@savedoriglocation=\count461
+\c@origpublisher=\count462
+\c@savedorigpublisher=\count463
+\c@publisher=\count464
+\c@savedpublisher=\count465
+\c@language=\count466
+\c@savedlanguage=\count467
+\c@origlanguage=\count468
+\c@savedoriglanguage=\count469
+\c@pageref=\count470
+\c@savedpageref=\count471
+\shorthandwidth=\skip100
+\shortjournalwidth=\skip101
+\shortserieswidth=\skip102
+\shorttitlewidth=\skip103
+\shortauthorwidth=\skip104
+\shorteditorwidth=\skip105
+\locallabelnumberwidth=\skip106
+\locallabelalphawidth=\skip107
+\localshorthandwidth=\skip108
+\localshortjournalwidth=\skip109
+\localshortserieswidth=\skip110
+\localshorttitlewidth=\skip111
+\localshortauthorwidth=\skip112
+\localshorteditorwidth=\skip113
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -820,19 +845,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblate
 x.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count467
-\c@textcitetotal=\count468
-\c@textcitemaxnames=\count469
-\c@biburlbigbreakpenalty=\count470
-\c@biburlbreakpenalty=\count471
-\c@biburlnumpenalty=\count472
-\c@biburlucpenalty=\count473
-\c@biburllcpenalty=\count474
+\c@textcitecount=\count472
+\c@textcitetotal=\count473
+\c@textcitemaxnames=\count474
+\c@biburlbigbreakpenalty=\count475
+\c@biburlbreakpenalty=\count476
+\c@biburlnumpenalty=\count477
+\c@biburlucpenalty=\count478
+\c@biburllcpenalty=\count479
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count475
+\c@smartand=\count480
 )
 Package biblatex Info: Trying to load bibliography style 'phys'...
 Package biblatex Info: ... file 'phys.bbx' found.
@@ -858,8 +883,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\sta
 ndard.bbx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count476
-\c@bbx:relatedtotal=\count477
+\c@bbx:relatedcount=\count481
+\c@bbx:relatedtotal=\count482
 ))))
 Package biblatex Info: Trying to load citation style 'phys'...
 Package biblatex Info: ... file 'phys.cbx' found.
@@ -873,10 +898,10 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\num
 eric-comp.cbx
 File: numeric-comp.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count478
-\c@cbx@tempcntb=\count479
-\c@cbx@tempcntc=\count480
-\c@cbx@tempcntd=\count481
+\c@cbx@tempcnta=\count483
+\c@cbx@tempcntb=\count484
+\c@cbx@tempcntc=\count485
+\c@cbx@tempcntd=\count486
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -899,43 +924,43 @@ File: biblatex.cfg
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendi
 x.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count482
-\c@@ppsavesec=\count483
-\c@@ppsaveapp=\count484
+\c@@pps=\count487
+\c@@ppsavesec=\count488
+\c@@ppsaveapp=\count489
 )
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count485
-\float@exts=\toks30
-\float@box=\box69
-\@float@everytoks=\toks31
-\@floatcapt=\box70
+\c@float@type=\count490
+\float@exts=\toks31
+\float@box=\box74
+\@float@everytoks=\toks32
+\@floatcapt=\box75
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 28.
-\@quotelevel=\count486
-\@quotereset=\count487
+h' as default language. on input line 29.
+\@quotelevel=\count491
+\@quotereset=\count492
 (Labreport.aux)
 \openout1 = `Labreport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -975,17 +1000,17 @@ LaTeX Font Info:    ... okay on input line 28.
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp
 -pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count488
-\scratchdimen=\dimen262
-\scratchbox=\box71
-\nofMPsegments=\count489
-\nofMParguments=\count490
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count491
-\MPscratchDim=\dimen263
-\MPnumerator=\count492
-\makeMPintoPDFobject=\count493
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count493
+\scratchdimen=\dimen263
+\scratchbox=\box76
+\nofMPsegments=\count494
+\nofMParguments=\count495
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count496
+\MPscratchDim=\dimen264
+\MPnumerator=\count497
+\makeMPintoPDFobject=\count498
+\everyMPtoPDFconversion=\toks34
 )
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\eps
 topdf-base.sty
@@ -998,16 +1023,16 @@ f-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 
-Package layouts Warning: Layout scale set to 0.5 on input line 28.
+Package layouts Warning: Layout scale set to 0.5 on input line 29.
 
-LaTeX Info: Redefining \celsius on input line 28.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 28.
+LaTeX Info: Redefining \celsius on input line 29.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 29.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 28.
-Package gensymb Info: Using \Omega for \ohm on input line 28.
+LaTeX Info: Redefining \ohm on input line 29.
+Package gensymb Info: Using \Omega for \ohm on input line 29.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1018,7 +1043,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 28.
+or `english'. on input line 29.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1028,7 +1053,7 @@ Package caption Info: End \AtBeginDocument code.
 Package hyperref Warning: Height of page (\stockheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
-Package hyperref Info: Link coloring OFF on input line 28.
+Package hyperref Info: Link coloring OFF on input line 29.
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref
 .sty
@@ -1042,11 +1067,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 \gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count494
+\c@section@level=\count499
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
+LaTeX Info: Redefining \nameref on input line 29.
  (Labreport.out) (Labreport.out)
 \@outlinefile=\write4
 \openout4 = `Labreport.out'.
@@ -1076,12 +1101,22 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Labreport.bbl' found.
  (Labreport.bbl)
-Package biblatex Info: Reference section=0 on input line 28.
-Package biblatex Info: Reference segment=0 on input line 28.
+Package biblatex Info: Reference section=0 on input line 29.
+Package biblatex Info: Reference segment=0 on input line 29.
  [1
 
 {C:/Users/Mrunmoy Jena/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (Labrepo
-rt.toc)
+rt.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write5
 \openout5 = `Labreport.toc'.
 
@@ -1095,38 +1130,61 @@ Chapter 1.
 
 ]
 Chapter 2.
+(Experiment.tex
+<./imagesandplots/pic1.png, id=50, 545.6385pt x 190.311pt>
+File: ./imagesandplots/pic1.png Graphic file (type png)
+<use ./imagesandplots/pic1.png>
+Package pdftex.def Info: ./imagesandplots/pic1.png  used on input line 11.
+(pdftex.def)             Requested size: 218.25153pt x 76.12303pt.
+ [3
 
-LaTeX Warning: Empty bibliography on input line 58.
-
-[3
+ <./imagesandplots/pic1.png>]
+<./imagesandplots/attvsunattcalib.pdf, id=65, 578.16pt x 433.62pt>
+File: ./imagesandplots/attvsunattcalib.pdf Graphic file (type pdf)
+<use ./imagesandplots/attvsunattcalib.pdf>
+Package pdftex.def Info: ./imagesandplots/attvsunattcalib.pdf  used on input li
+ne 23.
+(pdftex.def)             Requested size: 407.66833pt x 305.74846pt.
+ [4 <./imagesandplots/attvsunattcalib.pdf>]) [5] [6
 
 ]
 Appendix A.
-[4
+(appendix.tex [7
 
-] (Labreport.aux)
+]) [8] (Labreport.aux)
 Package rerunfilecheck Info: File `Labreport.out' has not changed.
-(rerunfilecheck)             Checksum: 0A6983C8B67A0494131D00EDD6EBC618;496.
+(rerunfilecheck)             Checksum: 6448F6C5F64A6E82D98D087A2BA62FE4;904.
 Package logreq Info: Writing requests to 'Labreport.run.xml'.
 \openout1 = `Labreport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24065 strings out of 478864
- 451811 string characters out of 2845307
- 1180497 words of memory out of 3000000
- 41708 multiletter control sequences out of 15000+600000
- 404690 words of font info for 31 fonts, out of 8000000 for 9000
+ 24516 strings out of 478864
+ 459917 string characters out of 2845307
+ 1242555 words of memory out of 3000000
+ 42106 multiletter control sequences out of 15000+600000
+ 410218 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,5n,81p,1200b,838s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,9n,81p,1432b,1620s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmbx10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Mrunmoy Jena/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Labreport.pdf (6 pages, 68718 bytes).
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Mrunmoy Jena/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Mrun
+moy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Mrunmoy Jena/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Mrunmoy J
+ena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
+/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy7.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmti10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Labreport.pdf (10 pages, 230034 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 216 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

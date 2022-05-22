@@ -16,5 +16,28 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{UB}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=06df9bddc9b0078ef7ec72ef1530928d}{%
+           family={{Universität Bonn}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{06df9bddc9b0078ef7ec72ef1530928d}
+      \strng{fullhash}{06df9bddc9b0078ef7ec72ef1530928d}
+      \strng{bibnamehash}{06df9bddc9b0078ef7ec72ef1530928d}
+      \strng{authorbibnamehash}{06df9bddc9b0078ef7ec72ef1530928d}
+      \strng{authornamehash}{06df9bddc9b0078ef7ec72ef1530928d}
+      \strng{authorfullhash}{06df9bddc9b0078ef7ec72ef1530928d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{A}245 Experiment Description}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
