@@ -24,4 +24,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Optimizing the second harmonic power}{11}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{13}{appendix.A}%
+\contentsline {subsection}{\numberline {2.2.3}Calculation of Gaussian beam parameters}{11}{subsection.2.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Appendix}{15}{appendix.A}%

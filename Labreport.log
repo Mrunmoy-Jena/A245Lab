@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  23 MAY 2022 17:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  23 MAY 2022 20:33
 entering extended mode
 **./Labreport.tex
 (Labreport.tex
@@ -1131,7 +1131,7 @@ Chapter 1.
 ]
 Chapter 2.
 (Experiment.tex
-<./imagesandplots/pic1.png, id=91, 545.6385pt x 190.311pt>
+<./imagesandplots/pic1.png, id=96, 545.6385pt x 190.311pt>
 File: ./imagesandplots/pic1.png Graphic file (type png)
 <use ./imagesandplots/pic1.png>
 Package pdftex.def Info: ./imagesandplots/pic1.png  used on input line 11.
@@ -1139,7 +1139,7 @@ Package pdftex.def Info: ./imagesandplots/pic1.png  used on input line 11.
  [3
 
  <./imagesandplots/pic1.png>]
-<./imagesandplots/attvsunattcalib.pdf, id=105, 578.16pt x 433.62pt>
+<./imagesandplots/attvsunattcalib.pdf, id=110, 578.16pt x 433.62pt>
 File: ./imagesandplots/attvsunattcalib.pdf Graphic file (type pdf)
 <use ./imagesandplots/attvsunattcalib.pdf>
 Package pdftex.def Info: ./imagesandplots/attvsunattcalib.pdf  used on input li
@@ -1159,53 +1159,53 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 56.
 
 [5]
-<./imagesandplots/injcvsunattpow.pdf, id=189, 578.16pt x 433.62pt>
+<./imagesandplots/injcvsunattpow.pdf, id=194, 578.16pt x 433.62pt>
 File: ./imagesandplots/injcvsunattpow.pdf Graphic file (type pdf)
 <use ./imagesandplots/injcvsunattpow.pdf>
 Package pdftex.def Info: ./imagesandplots/injcvsunattpow.pdf  used on input lin
 e 73.
 (pdftex.def)             Requested size: 407.66833pt x 305.74846pt.
  [6 <./imagesandplots/injcvsunattpow.pdf>] [7]
-<./imagesandplots/pic2.png, id=271, 721.4955pt x 195.73125pt>
+<./imagesandplots/pic2.png, id=276, 721.4955pt x 195.73125pt>
 File: ./imagesandplots/pic2.png Graphic file (type png)
 <use ./imagesandplots/pic2.png>
 Package pdftex.def Info: ./imagesandplots/pic2.png  used on input line 124.
 (pdftex.def)             Requested size: 288.59308pt x 78.2911pt.
-<./imagesandplots/variabattcalib.pdf, id=275, 578.16pt x 433.62pt>
+<./imagesandplots/variabattcalib.pdf, id=280, 578.16pt x 433.62pt>
 File: ./imagesandplots/variabattcalib.pdf Graphic file (type pdf)
 <use ./imagesandplots/variabattcalib.pdf>
 Package pdftex.def Info: ./imagesandplots/variabattcalib.pdf  used on input lin
 e 133.
 (pdftex.def)             Requested size: 407.66833pt x 305.74846pt.
  [8 <./imagesandplots/pic2.png> <./imagesandplots/variabattcalib.pdf>] [9]
-<./imagesandplots/pic3.png, id=374, 849.77475pt x 237.88875pt>
+<./imagesandplots/pic3.png, id=379, 849.77475pt x 237.88875pt>
 File: ./imagesandplots/pic3.png Graphic file (type png)
 <use ./imagesandplots/pic3.png>
 Package pdftex.def Info: ./imagesandplots/pic3.png  used on input line 177.
 (pdftex.def)             Requested size: 339.90387pt x 95.15381pt.
- [10 <./imagesandplots/pic3.png>])
-[11] [12
+ [10 <./imagesandplots/pic3.png>]
+[11] [12]) [13] [14
 
 ]
 Appendix A.
-(Appendix.tex [13
+(Appendix.tex [15
 
 ]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [14] [15] (Labreport.aux)
+) [16] [17] (Labreport.aux)
 Package rerunfilecheck Info: File `Labreport.out' has not changed.
-(rerunfilecheck)             Checksum: 6383DBE6DDD3047A969A19840D5FB107;3123.
+(rerunfilecheck)             Checksum: 8FF5ABB0335347B6DB4ABFED3288790C;3392.
 Package logreq Info: Writing requests to 'Labreport.run.xml'.
 \openout1 = `Labreport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24665 strings out of 478864
- 462697 string characters out of 2845307
+ 24679 strings out of 478864
+ 462895 string characters out of 2845307
  1243562 words of memory out of 3000000
- 42195 multiletter control sequences out of 15000+600000
+ 42196 multiletter control sequences out of 15000+600000
  419826 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,9n,81p,2119b,1674s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1230,9 +1230,9 @@ na/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/
 Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmtt10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/cm-super/sfrm1000.pfb>
-Output written on Labreport.pdf (17 pages, 423041 bytes).
+Output written on Labreport.pdf (19 pages, 434736 bytes).
 PDF statistics:
- 489 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
- 135 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 519 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
