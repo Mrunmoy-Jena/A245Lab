@@ -18,4 +18,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.5}Calibration of variable attenuator}{7}{subsection.2.1.5}%
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Focusing the laser beam into the non-linear crystal and optimization of second harmonic power}{9}{section.2.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Appendix}{11}{appendix.A}%

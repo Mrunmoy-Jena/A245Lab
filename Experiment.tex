@@ -1,6 +1,6 @@
 This section discusses the experimental setup and procedure, along with the calculation of the necessary quantities and their error analysis. 
 
-To begin with, a class 3B external cavity diode laser (TuiOptics, DL100) emitting light of wavelength 987 mm is used for the experiment. A shutter mounted onto the laser controls the beam and a pair of anamorphotic prisms is used to modify the elliptical beam profile to a more circular shape. The laser, shutter and prism pairs were all fixed on a laser table beforehand. For each part of the experiment, other instruments and optical elements were added onto this setup.
+To begin with, a class 3B external cavity diode laser (TuiOptics, DL100) which is set to emit light of wavelength 987 nm, is used for the experiment. A shutter mounted onto the laser controls the beam and a pair of anamorphotic prisms is used to modify the elliptical beam profile to a more circular shape. The laser, shutter and prism pairs were all fixed on a laser table beforehand. For each part of the experiment, other instruments and optical elements were added onto this setup.
 
 \section{Power measurements of the diode laser}
 The first part of the experiment is aimed at familiarizing oneself with the dependence of the fundamental output power of the laser with the injection current and to extract various important parameters characterizing the laser such as the threshold current, differential slope efficiency and the differential quantum efficiency. 
@@ -132,7 +132,7 @@ Now, in order to find the dependence of transmitted fundamental power with the a
 \begin{figure}[H]
 \includegraphics[width=0.9\textwidth]{./imagesandplots/variabattcalib.pdf}
 \centering
-\caption{Plot of the transmitted fundamental power vs the polarization angle of the $\lambda /2$ plate}
+\caption{Plot of the transmitted fundamental power vs the rotation angle of the $\lambda /2$ plate}
 \label{figexpt5}
 \end{figure}
 
@@ -140,7 +140,7 @@ The exact form of the fitting function is taken as follows:
 \begin{equation}
 P_{trans}=a+b\cos^{2}\left(\dfrac{\pi}{180}c(\theta-\theta_{0})\right)
 \end{equation}
-where the parameter $a$ represents the minimum transmitted power, $b$ represents the maximum transmitted power, $c$ being the factor by which the beam is rotated by the $\lambda /2$ plate and $\theta_{0}$ representing the angle of $\lambda /2$ plate at which maximum power is measured. The factor of $\pi / 180$ is simply there to convert the measured angles in degrees to radians since the cosine function, \texttt{numpy.cos()} used in \textit{Python} accepts angles in radians. By visually inspecting the plots of the data points, the initial guess parameters for the fitting function are taken as: $a=0$, $b=130$, $c=2$ (expected to be 2 since a rotation of the $\lambda /2$ plate by $\theta$ would rotate plane of polarization of the initial beam by 2$\theta$), $\theta_{0}=0$. After fitting, the optimal parameters come out to be:
+where the parameter $a$ represents the minimum transmitted power, $b$ represents the difference between the maximum and minimum transmitted power, $c$ being the factor by which the beam is rotated by the $\lambda /2$ plate and $\theta_{0}$ representing the angle of $\lambda /2$ plate at which maximum power is measured. The factor of $\pi / 180$ is simply there to convert the measured angles in degrees to radians since the cosine function, \texttt{numpy.cos()} used in \textit{Python} accepts angles in radians. By visually inspecting the plots of the data points, the initial guess parameters for the fitting function are taken as: $a=0$, $b=130$, $c=2$ (expected to be 2 since a rotation of the $\lambda /2$ plate by $\theta$ would rotate plane of polarization of the initial beam by 2$\theta$), $\theta_{0}=0$. After fitting, the optimal parameters come out to be:
 \begin{align*}
 a&=(0.540\pm 0.102)\ \mu\rm{W}\\
 b&=(129.561\pm 0.167)\ \mu\rm{W}\\
@@ -154,3 +154,18 @@ P_{trans}=(0.540\pm 0.102)+(129.561\pm 0.167)\cos^{2}\left(\dfrac{\pi}{180}(1.99
 \end{equation}
 
 As the data in this case is free from the complications discussed in Section \ref{Calib}, we use the $\chi^{2}$ test for goodness of fit. The reduced $\chi^{2}$ value comes out to be 1.47, which tells us that that the model $\cos^{2}\theta$ curve fits the data (including the respective errors) well enough. 
+
+Given that we now have a calibration curve that describes the variation of transmitted fundamental power with the polarization angle, we can measure just the variation of second harmonic power with the angle, $\theta$ to in turn get the dependence of second harmonic power on fundamental power, using the calibration curve. 
+
+Additionally, we calculate the extinction ratio, which is defined as the ratio of the maximum transmitted power to minimum transmitted power:
+\begin{equation}
+\eta_{ext}=\dfrac{P_{max}}{P_{min}}=\dfrac{a+b}{a}
+\end{equation}
+with its error as:
+\begin{equation}
+\Delta \eta_{ext}=\sqrt{\left(\dfrac{\Delta b}{a}\right)^{2}+\left(\dfrac{b\Delta a}{a^{2}}\right)^{2}}
+\end{equation}
+This gives us an extinction ratio of $\eta_{ext}=240.683\pm 45.024$
+
+\section{Focusing the laser beam into the non-linear crystal and optimization of second harmonic power}
+
