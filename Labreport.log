@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  23 MAY 2022 12:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  23 MAY 2022 13:03
 entering extended mode
 **./Labreport.tex
 (Labreport.tex
@@ -1177,17 +1177,17 @@ File: ./imagesandplots/variabattcalib.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./imagesandplots/variabattcalib.pdf  used on input lin
 e 133.
 (pdftex.def)             Requested size: 407.66833pt x 305.74846pt.
-) [8 <./imagesandplots/pic2.png> <./imagesandplots/variabattcalib.pdf>] [9
+ [8 <./imagesandplots/pic2.png> <./imagesandplots/variabattcalib.pdf>]) [9] [10
 
 ]
 Appendix A.
-(appendix.tex [10
+(Appendix.tex [11
 
 ]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [11] [12] (Labreport.aux)
+) [12] [13] (Labreport.aux)
 Package rerunfilecheck Info: File `Labreport.out' has not changed.
 (rerunfilecheck)             Checksum: 2E29713C0261C551139126A00FB4D79F;2312.
 Package logreq Info: Writing requests to 'Labreport.run.xml'.
@@ -1195,8 +1195,8 @@ Package logreq Info: Writing requests to 'Labreport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24642 strings out of 478864
- 462300 string characters out of 2845307
+ 24646 strings out of 478864
+ 462345 string characters out of 2845307
  1243387 words of memory out of 3000000
  42185 multiletter control sequences out of 15000+600000
  419826 words of font info for 87 fonts, out of 8000000 for 9000
@@ -1223,9 +1223,9 @@ na/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/
 Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmtt10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/cm-super/sfrm1000.pfb>
-Output written on Labreport.pdf (14 pages, 371418 bytes).
+Output written on Labreport.pdf (15 pages, 374292 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
+ 456 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

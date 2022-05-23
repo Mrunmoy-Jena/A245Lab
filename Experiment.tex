@@ -40,7 +40,7 @@ Now we use the commonly applied reduced $\chi^{2}$ test, to find the goodness of
 \end{equation}
 where $y_{i}(x_{i})$ are the recorded y values (attenuated power in this case), $f_{i}(x_{i};p)$ is are y values from the fitting function with $p$ parameters (in this case the linear fit function with parameters $a$ and $b$).
 
-Surprisingly, we get an extremely large reduced $\chi^{2}$ value of 174.69. Naively, one would conclude that since $\chi^{2}\gg 1$, the model is a 'bad fit'. However, on looking more carefully at the data points, we make two observations:
+Surprisingly, we get an extremely large reduced $\chi^{2}$ value of 174.69. Naively, one would conclude that since $\chi^{2}\gg 1$, the model is a `bad fit'. However, on looking more carefully at the data points, we make two observations:
 \begin{itemize}
 \item We find that the error in the first five data points (corresponding to current ($I$) values lying in the range of 50 to 70 mA) is an order of magnitude smaller than for the remaining data points. Given that the order $\mathcal{O}(y_{i}(x_{i})-f_{i}(x_{i};p))$ remains the same (more or less), the $\chi^{2}$ is sensitive to the order of the squares of the y-errors $\mathcal{O}(\chi^{2})\sim \mathcal{O}\left(1/\sigma_{i}^{2}\right)$. As such, the contribution from the very small errors of the first five data values would be around 100 times compared to that from the remaining y values.
 \item Moreover, we only have a small number of data points ($N=8$), which we are trying to fit with two parameters ($p=2$), this restricts the degrees of freedom to only 6 ($df=N-p$). Again this leads to a large reduced $\chi^{2}$ value.
@@ -82,7 +82,7 @@ P_{unatt}=mI+c
 \end{equation}  
 After visually guessing the slope and the y intercept, we take initial parameters for curve fitting as $m=30/40=0.75$ and $c=-30$. The least square curve fitting procedure gives the best linear fit as: 
 \begin{equation}
-P_{unatt}=(0.62234\pm 0.00027)I+(-34.329\pm 0.022)
+P_{unatt}=(0.62234\pm 0.00027)I+(-34.329\pm 0.022)\ \rm{mW}
 \end{equation}
 The $R^{2}$ value for this fit is found to be 0.9993, indicating a linear model that explains the variability in y values quite well. Again, the $\chi^{2}$ goodness of fit test isn't used here because of the complications mentioned in Section \ref{Calib}.
 
@@ -118,7 +118,7 @@ where $e$ is the fundamental unit of electric charge, $h$ is Planck's constant a
 \end{itemize}
 
 \subsection{Calibration of variable attenuator}
-We observe that controlling the laser fundamental power by varying the diode current is an inefficient method since, the power of the laser does not vary continuously with the injection current. Instead jumps in power and frequency occur when we do this (known as 'mode hops') \cite{UB}. Therefore the previous setup is modified by introducing a rotatable $\lambda /2$ plate and a beam splitter cube (both of which function as two polarizers), in the beam path between the laser diode and the power meter. The injection current is fixed at its maximum value for this part of the experiment. First, we check that the beam splitter cube is placed such that it transmits the maximum possible power without the $\lambda /2$ plate. After this is ensured, the $\lambda /2$ plate is inserted. Moreover, as done before, in order to precisely adjust the heights and positions of the optical elements, an IR card is used to follow the beam path and ensure that the entire transmitted beam falls completely on the power meter. The schematic set up for this part of the experiment is shown in Figure \ref{figexpt4}.
+We observe that controlling the laser fundamental power by varying the diode current is an inefficient method since, the power of the laser does not vary continuously with the injection current. Instead jumps in power and frequency occur when we do this (known as `mode hops') \cite{UB}. Therefore the previous setup is modified by introducing a rotatable $\lambda /2$ plate and a beam splitter cube (both of which function as two polarizers), in the beam path between the laser diode and the power meter. The injection current is fixed at its maximum value for this part of the experiment. First, we check that the beam splitter cube is placed such that it transmits the maximum possible power without the $\lambda /2$ plate. After this is ensured, the $\lambda /2$ plate is inserted. Moreover, as done before, in order to precisely adjust the heights and positions of the optical elements, an IR card is used to follow the beam path and ensure that the entire transmitted beam falls completely on the power meter. The schematic set up for this part of the experiment is shown in Figure \ref{figexpt4}.
 
 \begin{figure}[H]
 \includegraphics[scale=0.4]{./imagesandplots/pic2.png}
@@ -135,3 +135,22 @@ Now, in order to find the dependence of transmitted fundamental power with the a
 \caption{Plot of the transmitted fundamental power vs the polarization angle of the $\lambda /2$ plate}
 \label{figexpt5}
 \end{figure}
+
+The exact form of the fitting function is taken as follows:
+\begin{equation}
+P_{trans}=a+b\cos^{2}\left(\dfrac{\pi}{180}c(\theta-\theta_{0})\right)
+\end{equation}
+where the parameter $a$ represents the minimum transmitted power, $b$ represents the maximum transmitted power, $c$ being the factor by which the beam is rotated by the $\lambda /2$ plate and $\theta_{0}$ representing the angle of $\lambda /2$ plate at which maximum power is measured. The factor of $\pi / 180$ is simply there to convert the measured angles in degrees to radians since the cosine function, \texttt{numpy.cos()} used in \textit{Python} accepts angles in radians. By visually inspecting the plots of the data points, the initial guess parameters for the fitting function are taken as: $a=0$, $b=130$, $c=2$ (expected to be 2 since a rotation of the $\lambda /2$ plate by $\theta$ would rotate plane of polarization of the initial beam by 2$\theta$), $\theta_{0}=0$. After fitting, the optimal parameters come out to be:
+\begin{align*}
+a&=(0.540\pm 0.102)\ \mu\rm{W}\\
+b&=(129.561\pm 0.167)\ \mu\rm{W}\\
+c&=1.9983\pm 0.0007\\
+\theta_{0}&=(26.590\pm 0.027)\degree
+\end{align*}
+
+Therefore the fitting function becomes: 
+\begin{equation}
+P_{trans}=(0.540\pm 0.102)+(129.561\pm 0.167)\cos^{2}\left(\dfrac{\pi}{180}(1.9983\pm 0.0007)(\theta-(26.590\pm 0.027))\right) \ \mu\rm{W}
+\end{equation}
+
+As the data in this case is free from the complications discussed in Section \ref{Calib}, we use the $\chi^{2}$ test for goodness of fit. The reduced $\chi^{2}$ value comes out to be 1.47, which tells us that that the model $\cos^{2}\theta$ curve fits the data (including the respective errors) well enough. 
