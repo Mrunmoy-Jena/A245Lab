@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  23 MAY 2022 10:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  23 MAY 2022 12:11
 entering extended mode
 **./Labreport.tex
 (Labreport.tex
@@ -1131,7 +1131,7 @@ Chapter 1.
 ]
 Chapter 2.
 (Experiment.tex
-<./imagesandplots/pic1.png, id=71, 545.6385pt x 190.311pt>
+<./imagesandplots/pic1.png, id=76, 545.6385pt x 190.311pt>
 File: ./imagesandplots/pic1.png Graphic file (type png)
 <use ./imagesandplots/pic1.png>
 Package pdftex.def Info: ./imagesandplots/pic1.png  used on input line 11.
@@ -1139,7 +1139,7 @@ Package pdftex.def Info: ./imagesandplots/pic1.png  used on input line 11.
  [3
 
  <./imagesandplots/pic1.png>]
-<./imagesandplots/attvsunattcalib.pdf, id=85, 578.16pt x 433.62pt>
+<./imagesandplots/attvsunattcalib.pdf, id=90, 578.16pt x 433.62pt>
 File: ./imagesandplots/attvsunattcalib.pdf Graphic file (type pdf)
 <use ./imagesandplots/attvsunattcalib.pdf>
 Package pdftex.def Info: ./imagesandplots/attvsunattcalib.pdf  used on input li
@@ -1159,37 +1159,49 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 56.
 
 [5]
-<./imagesandplots/injcvsunattpow.pdf, id=169, 578.16pt x 433.62pt>
+<./imagesandplots/injcvsunattpow.pdf, id=174, 578.16pt x 433.62pt>
 File: ./imagesandplots/injcvsunattpow.pdf Graphic file (type pdf)
 <use ./imagesandplots/injcvsunattpow.pdf>
 Package pdftex.def Info: ./imagesandplots/injcvsunattpow.pdf  used on input lin
 e 73.
 (pdftex.def)             Requested size: 407.66833pt x 305.74846pt.
- [6 <./imagesandplots/injcvsunattpow.pdf>]) [7] [8
+ [6 <./imagesandplots/injcvsunattpow.pdf>] [7]
+<./imagesandplots/pic2.png, id=256, 721.4955pt x 195.73125pt>
+File: ./imagesandplots/pic2.png Graphic file (type png)
+<use ./imagesandplots/pic2.png>
+Package pdftex.def Info: ./imagesandplots/pic2.png  used on input line 124.
+(pdftex.def)             Requested size: 288.59308pt x 78.2911pt.
+<./imagesandplots/variabattcalib.pdf, id=260, 578.16pt x 433.62pt>
+File: ./imagesandplots/variabattcalib.pdf Graphic file (type pdf)
+<use ./imagesandplots/variabattcalib.pdf>
+Package pdftex.def Info: ./imagesandplots/variabattcalib.pdf  used on input lin
+e 133.
+(pdftex.def)             Requested size: 407.66833pt x 305.74846pt.
+) [8 <./imagesandplots/pic2.png> <./imagesandplots/variabattcalib.pdf>] [9
 
 ]
 Appendix A.
-(appendix.tex [9
+(appendix.tex [10
 
 ]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [10] [11] (Labreport.aux)
+) [11] [12] (Labreport.aux)
 Package rerunfilecheck Info: File `Labreport.out' has not changed.
-(rerunfilecheck)             Checksum: 1AACC91B6B7A24B55EBF8F326D00BD9D;2225.
+(rerunfilecheck)             Checksum: 2E29713C0261C551139126A00FB4D79F;2312.
 Package logreq Info: Writing requests to 'Labreport.run.xml'.
 \openout1 = `Labreport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24609 strings out of 478864
- 461616 string characters out of 2845307
- 1243175 words of memory out of 3000000
- 42163 multiletter control sequences out of 15000+600000
- 417967 words of font info for 80 fonts, out of 8000000 for 9000
+ 24642 strings out of 478864
+ 462300 string characters out of 2845307
+ 1243387 words of memory out of 3000000
+ 42185 multiletter control sequences out of 15000+600000
+ 419826 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,10n,81p,1432b,1620s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,10n,81p,1432b,1662s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super
 /cm-super-ts1.enc}<C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs
@@ -1200,19 +1212,20 @@ b><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmmi10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Mrunmoy Jena/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Mrunm
-oy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><
-C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmr9.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Mrunmoy Jena/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Mrunmoy J
-ena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:
-/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/s
-frm1000.pfb>
-Output written on Labreport.pdf (13 pages, 301127 bytes).
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Mrunm
+oy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr7.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr9.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mrunmoy Jena/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Mrunmoy Je
+na/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/
+Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmtt10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/cm-super/sfrm1000.pfb>
+Output written on Labreport.pdf (14 pages, 371418 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 450 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

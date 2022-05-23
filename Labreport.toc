@@ -6,7 +6,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Experiment and Analysis of Results}{3}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Variation of fundamental laser output power with injection current}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Power measurements of the diode laser}{3}{section.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.1}Calibration of removable attenuator}{4}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
@@ -16,4 +16,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.4}Calculation of laser output characteristics}{7}{subsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{9}{appendix.A}%
+\contentsline {subsection}{\numberline {2.1.5}Calibration of variable attenuator}{7}{subsection.2.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Appendix}{10}{appendix.A}%
