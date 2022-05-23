@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  23 MAY 2022 00:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  23 MAY 2022 10:23
 entering extended mode
 **./Labreport.tex
 (Labreport.tex
@@ -1171,7 +1171,11 @@ e 73.
 Appendix A.
 (appendix.tex [9
 
-]) [10] (Labreport.aux)
+]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [10] [11] (Labreport.aux)
 Package rerunfilecheck Info: File `Labreport.out' has not changed.
 (rerunfilecheck)             Checksum: 1AACC91B6B7A24B55EBF8F326D00BD9D;2225.
 Package logreq Info: Writing requests to 'Labreport.run.xml'.
@@ -1179,13 +1183,13 @@ Package logreq Info: Writing requests to 'Labreport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24606 strings out of 478864
- 461574 string characters out of 2845307
- 1243064 words of memory out of 3000000
- 42162 multiletter control sequences out of 15000+600000
+ 24609 strings out of 478864
+ 461616 string characters out of 2845307
+ 1243175 words of memory out of 3000000
+ 42163 multiletter control sequences out of 15000+600000
  417967 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,9n,81p,1432b,1620s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,10n,81p,1432b,1620s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super
 /cm-super-ts1.enc}<C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs
@@ -1206,9 +1210,9 @@ l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Mrunmoy J
 ena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:
 /Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/s
 frm1000.pfb>
-Output written on Labreport.pdf (12 pages, 295171 bytes).
+Output written on Labreport.pdf (13 pages, 301127 bytes).
 PDF statistics:
- 338 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
+ 344 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
  88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
