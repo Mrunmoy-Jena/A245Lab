@@ -22,4 +22,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Focusing the laser beam into the non-linear crystal}{10}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{12}{appendix.A}%
+\contentsline {subsection}{\numberline {2.2.2}Optimizing the second harmonic power}{11}{subsection.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Appendix}{13}{appendix.A}%
