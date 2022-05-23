@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  23 MAY 2022 21:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  23 MAY 2022 21:53
 entering extended mode
 **./Labreport.tex
 (Labreport.tex
@@ -1192,9 +1192,10 @@ Appendix A.
 
 ]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 81.
 
-) [16] [17] (Labreport.aux)
+[16] [17] [18]) [19] (Labreport.aux)
 Package rerunfilecheck Info: File `Labreport.out' has not changed.
 (rerunfilecheck)             Checksum: F8968CB78B9D8F64AB3AA883A0082DF7;4144.
 Package logreq Info: Writing requests to 'Labreport.run.xml'.
@@ -1202,10 +1203,10 @@ Package logreq Info: Writing requests to 'Labreport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24684 strings out of 478864
- 462968 string characters out of 2845307
- 1243632 words of memory out of 3000000
- 42199 multiletter control sequences out of 15000+600000
+ 24689 strings out of 478864
+ 463016 string characters out of 2845307
+ 1259933 words of memory out of 3000000
+ 42201 multiletter control sequences out of 15000+600000
  419826 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,9n,81p,2119b,1678s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1230,9 +1231,9 @@ na/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/
 Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmtt10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/cm-super/sfrm1000.pfb>
-Output written on Labreport.pdf (19 pages, 438980 bytes).
+Output written on Labreport.pdf (21 pages, 448059 bytes).
 PDF statistics:
- 531 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
+ 541 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
  159 words of extra memory for PDF output out of 10000 (max. 10000000)
 
