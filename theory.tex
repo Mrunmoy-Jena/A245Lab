@@ -82,3 +82,31 @@ We note that the Boyd-Kleinmann relation is satisfied within one standard deviat
 \end{split}
 \end{equation}
 We see that we need to use a lens of wavelength $62.5mm$, which is close enough.
+
+\section{Diffraction Grating}
+A diffraction grating is an optical component which diffracts light into several direction by construction. Grating can be used to determine the wavelength of the light, since the diffraction depends on the construction of such a grating (the periodic structure of the diffraction grating under consideration). The cross section of a typical diffraction grating is given in figure \ref{fig:diffraction}.\\
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width = 6cm]{diffraction.jpg}
+    \caption{The cross section of a typical diffraction grating component\cite{diffraction}.}
+    \label{fig:diffraction}
+\end{figure}
+As we can see from the figure, whether an incoming wave constructively or destructively interferes depends on the wavelength. Specifically, the following condition needs to hold for constructive interference.
+\begin{equation}
+    m\lambda = \lvert sin\alpha - sin \beta \rvert \cdot d,
+\end{equation}
+where $d$ is the spacing and $m$ is the order of the maximum. The resolution of a diffraction grating component is given by,
+\begin{equation}
+    A = \frac{\lambda}{\Delta \lambda} = m \cdot N,
+\end{equation}
+where $N$ is the number of illuminated facets of the grating.
+
+\section{Michelson Interferometer}
+Even though we can calculate the wavelength using diffraction grating, we can achieve much better resolution with a Michelson interferometer. The fundamental principle of a Michelson interferometer is to exploit the fact that the phase difference between any two waves can either constructively or destructively interfere. The schematic of a typical Michelson interferometer is given in the figure \ref{fig:michelson}.\\
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width = 6cm]{michelson.png}
+    \caption{The schematic of a typical Michelson Interferometer\cite{michelson}.}
+    \label{fig:michelson}
+\end{figure}
+The components of a Michelson interferometer are a coherent light source, a beam-splitter and two mirrors and a detector. The light from the source is split into two beams, which are then reflected back from the mirrors. These two beams are made to interfere again beyond the beam-splitter and the result is measured using a detector. The interferometer is constructed in such a way that one of the arms, called the fixed arm, is fixed in position. So that the position of the mirror is fixed. Whereas, the other arm is movable, meaning the mirror along this arm can be moved. This is then used to produce and observe constructive and destructive interferences. Since the wavelength is of several orders of magnitudes smaller than the distances across which the arm can be moved precisely, it is nearly impossible to measure the wavelength of the incoming wave. But, extracting the wavelength relation is possible through plotting $Lissajous$ figures. This can be done by using a second detector to measure the second beam after splitting the beam after interference. The outputs of the two detectors can be plotted as x and y signals in an oscilloscope. We should be able to obtain $Lissajous$ figures.
