@@ -140,14 +140,14 @@ The exact form of the fitting function is taken as follows:
 \begin{equation}
 P_{trans}=a+b\cos^{2}\left(\dfrac{\pi}{180}c(\theta-\theta_{0})\right)
 \end{equation}
-where the parameter $a$ represents the minimum transmitted power, $b$ represents the difference between the maximum and minimum transmitted power, $c$ being the factor by which the beam was rotated by the $\lambda /2$ plate and $\theta_{0}$ representing the angle of $\lambda /2$ plate at which maximum power was measured. The factor of $\pi / 180$ is simply there to convert the measured angles in degrees to radians since the cosine function, \texttt{numpy.cos()} used in \textit{Python} accepts angles in radians. By visually inspecting the plots of the data points, the initial guess parameters for the fitting function are taken as: $a=0\ \mu\rm{W}$, $b=130\ \mu\rm{W}$, $c=2$ (expected to be 2 since a rotation of the $\lambda /2$ plate by $\theta$ would rotate plane of polarization of the initial beam by 2$\theta$), $\theta_{0}=0\degree$. After fitting, the optimal parameters come out to be:
+where the parameter $a$ represents the minimum transmitted power, $b$ represents the difference between the maximum and minimum transmitted power, $c$ being the factor by which the beam was rotated by the $\lambda /2$ plate and $\theta_{0}$ representing the angle of $\lambda /2$ plate at which maximum power was measured. The factor of $\pi / 180$ is simply there to convert the measured angles in degrees to radians since the cosine function, \texttt{numpy.cos()} used in \textit{Python} accepts angles in radians. By visually inspecting the plots of the data points, the initial guess parameters for the fitting function are taken as: $a=0$, $b=130$, $c=2$ (expected to be 2 since a rotation of the $\lambda /2$ plate by $\theta$ would rotate plane of polarization of the initial beam by 2$\theta$), $\theta_{0}=0$. After fitting, the optimal parameters come out to be:
 \begin{align*}
 a&=(0.540\pm 0.102)\ \mu\rm{W}\\
 b&=(129.561\pm 0.167)\ \mu\rm{W}\\
 c&=1.9983\pm 0.0007\\
 \theta_{0}&=(26.590\pm 0.027)\degree
 \end{align*}
-\label{type1ornot}
+
 As the data in this case is free from the complications discussed in Section \ref{Calib}, we use the $\chi^{2}$ test for goodness of fit. The reduced $\chi^{2}$ value comes out to be 1.47, which tells us that that the model $\cos^{2}\theta$ curve fits the data well enough. 
 
 Given that we now have a calibration curve that describes the variation of transmitted fundamental power with the polarization angle, it is possible to measure just the variation of second harmonic power with the angle, $\theta$ to in turn get the dependence of second harmonic power on fundamental power, using the calibration curve. \label{variablecalib}
@@ -274,7 +274,7 @@ Thereforem to fit this curve, we choose a model following general form of a para
 \begin{equation}
 P_{SH}=aP_{F}^{2}+bP_{F}+c
 \end{equation}
-We take initial guess parameters as: $a=1/500\ \mu\rm{W}^{-1}$ (we used this because, $x$ value of 100 gives a $y$ value of around 20; assuming quadratic dependence, this would give the factor to be multiplied with $x^{2}$ as $20/10000=1/500$), $b=0$ (linear dependence is assumed to be very small) and $c=0\ \mu\rm{W}$ (no offset can be seen from the $x$-axis). The curve fitting module yields the following optimal parameter values:
+We take initial guess parameters as: $a=1/500$ (we used this because, $x$ value of 100 gives a $y$ value of around 20; assuming quadratic dependence, this would give the factor to be multiplied with $x^{2}$ as $20/10000=1/500$), $b=0$ (linear dependence is assumed to be very small) and $c=0$ (no offset can be seen from the $x$-axis). The curve fitting module yields the following optimal parameter values:
 \begin{align*}
 a&=(0.0022\pm 9.3988\times 10^{-6})\ \mu\rm{W}^{-1}\\
 b&=-0.0031\pm 0.0013\\
@@ -285,18 +285,10 @@ We find that while $a$ has a very small error relative to its calculated value, 
 \eta=(0.0022\pm 9.3988\times 10^{-6})\ \mu\rm{W}^{-1}
 \end{equation}
 
-\label{chisqdiscuss}
 Although it can be clearly seen that the data points follow this parabolic variation well, the reduced $\chi^{2}$ value comes out to quite large ($\chi_{red}^{2}=24.42$). This could be due to the fact that while the data points lie (more or less) on the fit curve at lower values of fundamental power; at higher values (from above 100 $\mu$W) some of the data points are scattered a little away from the fit curve. Since the errors on each of the data points are already small, this contributes to a large $\chi_{red}^{2}$ value. Moreover, as discussed in the paper by Andrae et.al. \cite{https://doi.org/10.48550/arxiv.1012.3754}, the $\chi^{2}$ test should not always be used as a test of goodness of fit, since for non-linear models, the degrees of freedom isn't always given by $df=N-p$ (where $N$ is the number of points and $p$ the number of fit parameters) and may not even be constant during the fitting procedure. 
 
 \subsection{Variation of harmonic power with polarization of fundamental wave}
-For this part of the experiment, we removed the beam splitting polarizer from the arrangement, so that the polarization of the fundamental wave could be changed by changing the rotation angle of the $\lambda/2$ plate. As done before, the angle of polarization was varied from $0 \degree$ to $180 \degree$ in increments of $2.5 \degree$. The recorded values can be found in Table \ref{tab:shpowvspol}. The plot of the second harmonic power vs the polarization angle of the fundamental beam is displayed in Figure \ref{figexpt8}
-
-\begin{figure}[H]
-\includegraphics[width=0.9\textwidth]{./imagesandplots/shpowvsfundpolarization.pdf}
-\centering
-\caption{Plot of the second harmonic (unattenuated) power vs the angle of polarization of the fundamental beam}
-\label{figexpt8}
-\end{figure}
+For this part of the experiment, we removed the beam splitting polarizer from the arrangement, so that the polarization of the fundamental wave could be changed by changing the rotation angle of the $\lambda/2$ plate. As done before, the angle of polarization was varied from $0 \degree$ to $180 \degree$ in increments of $2.5 \degree$. The recorded values can be found in Table \ref{tab:shpowvspol}. 
 
 While Type I phase matching gives a dependence of $P_{SH}\propto \cos^{4}\theta$, Type II phase matching condition would give a $P_{SH}\propto \cos^{2}\theta\sin^{2}\theta$ dependence. In order to find which of these phase matching conditions holds true for our experiment, we design two non linear fits of the form:
 \begin{align}
@@ -304,12 +296,47 @@ P_{SH}&=a\cos^{4}\left(\dfrac{\pi}{180}b(\theta-\theta_{0})\right)+c\\
 P_{SH}&=a\cos^{2}\left(\dfrac{\pi}{180}b(\theta-\theta_{0})\right)\sin^{2}\left(\dfrac{\pi}{180}b(\theta-\theta_{0})\right)+c
 \end{align}
 
-These two models are then made to fit onto the observed data and the two fits are compared. It can be seen clearly from the plot that the model for Type I phase matching fits the data much better than the model for Type II phase matching. Although the reduced $\chi_{red}^{2}$ are extremely high for the models ($\chi_{red}^{2}=278.54$ for Type I and $\chi_{red}^{2}=1647.05$ for Type II), this comes as no surprise as even for the $\cos^{4}\theta$ many of the data points lie just outside the best fit curve. Moreover, the factors discussed at the end of Section \ref{chisqdiscuss} also play a role in these large values of $\chi_{red}^{2}$. Despite all this, since the $\chi_{red}^{2}$ for the $\cos^{4}\theta$ model is much lower than that for the $\cos^{2}\theta\sin^{2}\theta$ model, we conclude that the data is best described by $\cos^{2}\theta$ model and therefore Type I phase matching has been attained. The initial guess parameters for the $\cos^{2}\theta$ fit were chosen as: $a=50\ \mu\rm{W}$, $b=2$, $\theta_{0}=25\degree$ and $c=0\ \mu \rm{W}$. The optimal parameters of this fit are:
-\begin{align*}
-a&=(40.671\pm 0.032)\ \mu\rm{W}\\
-b&=1.99278\pm 0.00042\\
-c&=(11.363\pm 0.017)\ \mu \rm{W}\\
-\theta_{0}&=(25.269\pm 0.015)\degree
-\end{align*}
-Physically, the parameter $a$ represents the maximum value of power recorded, $b$ indicates the periodicity of the $\cos^{4}\theta$ variation, $c$ gives the offset reading and $\theta_{0}$ gives the phase of the modelled function. It is nice to see that the periodicity, $b$ and phase, $c$ remain nearly the same as the values obtained during calibration in Section \ref{type1ornot}. This again confirms that we had indeed achieved Type I phase matching for this experiment.
-
+\section{Diffraction Grating and Wavelength}
+In this part, we would like to calculate the wavelengths of the fundamental beam and the second harmonic using a setup involving diffraction grating, the principles of which were discussed earlier. The setup is shown in the figure \ref{fig:diffgrat}.
+\begin{figure}
+    \centering
+    \includegraphics[width = 6cm]{diffgrat.png}
+    \caption{Schematic of the setup to calculate the wavelengths using diffraction grating. The green line on top left corresponds to the diffraction grating, red lines correspond to beams of fundamental frequency and blue line correspond to beam of second harmonic frequency. The black line corresponds to the perpendicular to the grating.}
+    \label{fig:diffgrat}
+\end{figure}
+The setup involved here is not sophisticated and we use regular measuring sticks to measure the distances. This comes with the drawback of having not a great error estimation. In our case, we assume a constant error of $0.5cm$ in all our readings, due to the scale of the measuring stick. We also achieve the angle of $45^{\circ}$ by approximately aligning the $0$ order diffraction to lie perpendicular to the incoming beam. We should note that this crude alignment could add to the errors in our calculations, which we have no way of estimating.\\
+From the figure \ref{fig:diffgrat}, we can calculate the following quantities,
+\begin{equation}
+\begin{split}
+    \theta_m &= tan^{-1}\left(\frac{L_m}{d}\right) \\
+    \beta_m &= \frac{\pi}{4} - \theta_m \\
+    s_m &= sin(\pi/4) - sin(\beta_m),
+\end{split}
+\end{equation}
+where the quantity $\theta_m$, which is not labelled in the figure, corresponds to the angle made by the $m^{th}$ order diffraction beam with the $0^{th}$ order beam. Then the rest of the calculations follow, with $L_m$ as the distance of the $m^{th}$ macimum from the $0^{th}$, $d$ is the distance of the screen from the grating. Then the wavelength is calculated as,
+\begin{equation}
+    \lambda = \frac{s_m D}{m},
+\end{equation}
+where D is the grating constant $\frac{1}{600} mm$. The error is calculated as,
+\begin{equation}
+    \Delta\lambda = \frac{cos(\beta_m)\Delta\theta_m D}{m},
+\end{equation}
+where $\Delta\theta_m = \frac{1}{L^2 + d^2}\sqrt{(L\Delta d)^2 + (d \Delta L)^2}$. The calcualated wavelength can be found in the table \ref{tab:diffgrat}.
+\begin{table}[]
+    \centering
+    \begin{tabular}{c|cccc}
+         & L [m] & $\lambda$[nm] & $A_{exp}$ & $A_{th}$ \\
+        \hline
+        SH: 1st order & 66 & 497.5 $\pm$ 4.1 & 121.1 & 1800 \\
+        SH: 2nd order & 137.8 & 495.5 $\pm$ 4.9 & 264.7 & 3600 \\
+        SH: 3rd order & 246.4 & 488.6 $\pm$ 0.9 & 537.6 & 5400 \\
+        Fund.: 1st order & 137.8 & 991.0 $\pm$ 3.7 & 264.7 & 1800
+    \end{tabular}
+    \caption{Positions of the different order diffraction maxima and the corresponding calculated wavelength. The last two columns correspond to the experimental and theoretical resolution.}
+    \label{tab:diffgrat}
+\end{table}
+Therefore, we calculate the wavelength of the fundamental beam as $\lambda_{Fun} = 991.0 \pm 3.7 nm$ and for the wavelength of the second harmonic, we perform a weighted mean on the calculated values with the weights being inverse variances, giving us $\lambda_{SH} = 490.2 \pm 1.6 nm$. The literature value for these two quantities are $987nm$ and $493.5nm$ respectively. We notice that the literature values lie within $2\sigma$ of the calculated values, which is impressive considering the very crude setup. We also, calculate the ratio of the wavelengths of the fundamental beam to that of the second harmonic, which gives us,
+\begin{equation}
+    \frac{\lambda_{Fun}}{\lambda_{SH}} = 2.021 \pm 0.008.
+\end{equation}
+The calculated ratio reflects the fact that the calculated wavelength of the fundamental beam is slightly above the literature value, whereas the calculated wavelength of the second harmonic is slightly below the literature value. The ratio from the literature values lie within $3\sigma$ of our ratio. We comment that we have not included all the possible errors in the setup and only take the major source of error which is the error in the measuring stick, which is also taken as a constant. The ignored errors add up to produce an unpredictable final error in our result. To achieve greater efficiency, a much more sophisticated setup is to be aimed for. We also have the experimental resolution, $A_{exp} = \frac{\lambda}{\Delta\lambda}$ and the theoretical resolution, $A_{th} = m \times N$ in the table \ref{tab:diff}. In our case, $N$, which is the number of illuminated lines, was calculated approximately as $1800$, with the diffraction constant being $600$ lines/$mm$ and the beam width of the laser being $3mm$. Even though the experimental resolution is far from the theoretical resolution, we can observe the linear dependence on the order of magnitude $m$. We posit that the low experimental resolution values are due to the high uncertainties in the calculated wavelength. With our setup, we were unable to measure the positions of the maxima to a greater precision, even though the diffraction maxima were sharp.
