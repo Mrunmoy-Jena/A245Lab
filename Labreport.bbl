@@ -65,6 +65,7 @@
       \strng{authorbibnamehash}{93d707cc77f037fd02e1c8cfa75317cf}
       \strng{authornamehash}{93d707cc77f037fd02e1c8cfa75317cf}
       \strng{authorfullhash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \field{extraname}{1}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
@@ -79,6 +80,64 @@
       \verb https://commons.wikimedia.org/w/index.php?title=File:Gaussianbeam.png&oldid=458744977
       \endverb
     \endentry
+    \entry{diffraction}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=93d707cc77f037fd02e1c8cfa75317cf}{%
+           family={Commons},
+           familyi={C\bibinitperiod},
+           given={Wikimedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{fullhash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{bibnamehash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{authorbibnamehash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{authornamehash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{authorfullhash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 22-May-2022]}
+      \field{title}{File:Diffraction Grating Equation.jpg --- Wikimedia Commons{,} the free media repository}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://commons.wikimedia.org/w/index.php?title=File:Diffraction_Grating_Equation.jpg&oldid=498826642
+      \endverb
+      \verb{url}
+      \verb https://commons.wikimedia.org/w/index.php?title=File:Diffraction_Grating_Equation.jpg&oldid=498826642
+      \endverb
+    \endentry
+    \entry{michelson}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=93d707cc77f037fd02e1c8cfa75317cf}{%
+           family={Commons},
+           familyi={C\bibinitperiod},
+           given={Wikimedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{fullhash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{bibnamehash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{authorbibnamehash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{authornamehash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{authorfullhash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \field{extraname}{3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 22-May-2022]}
+      \field{title}{File:Michelson interferometer with labels.svg --- Wikimedia Commons{,} the free media repository}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://commons.wikimedia.org/w/index.php?title=File:Michelson_interferometer_with_labels.svg&oldid=471006251
+      \endverb
+      \verb{url}
+      \verb https://commons.wikimedia.org/w/index.php?title=File:Michelson_interferometer_with_labels.svg&oldid=471006251
+      \endverb
+    \endentry
     \entry{UB}{misc}{}
       \name{author}{1}{}{%
         {{hash=06df9bddc9b0078ef7ec72ef1530928d}{%
@@ -91,8 +150,8 @@
       \strng{authorbibnamehash}{06df9bddc9b0078ef7ec72ef1530928d}
       \strng{authornamehash}{06df9bddc9b0078ef7ec72ef1530928d}
       \strng{authorfullhash}{06df9bddc9b0078ef7ec72ef1530928d}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{A}245 Experiment Description}
@@ -124,8 +183,8 @@
       \strng{authorbibnamehash}{393b87df6d07259dd527339bff903b51}
       \strng{authornamehash}{227af69b1f16d4f1488db4f40f19f5af}
       \strng{authorfullhash}{393b87df6d07259dd527339bff903b51}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Dos and don'ts of reduced chi-squared}
@@ -158,8 +217,8 @@
       \strng{authorbibnamehash}{d7cc0459b3132aec399f41b1d24c2233}
       \strng{authornamehash}{d7cc0459b3132aec399f41b1d24c2233}
       \strng{authorfullhash}{d7cc0459b3132aec399f41b1d24c2233}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{Third}

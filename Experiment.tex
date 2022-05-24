@@ -297,9 +297,32 @@ P_{SH}&=a\cos^{2}\left(\dfrac{\pi}{180}b(\theta-\theta_{0})\right)\sin^{2}\left(
 \end{align}
 
 \subsection{Variation of harmonic power with crystal temperature}
-In order to to study the dependence of the SH power on the crystal temperature, we decided that it would be more feasible to first increase the temperature of the crystal upto a maximum possible 39.9 $\degree$C (in small steps of 0.2 $\degree$C), since the crystal was already set at a temperature of 36.7 $\degree$C; and then gradually decrease the temperature upto a minimum possible of 26.9 $\degree$C. It is also to be noted that while the readings were taken in steps of 0.2 $\degree$C down till 34.4 $\degree$C, while going further below this temperature, the reading of the power meter did not change much and therefore the steps were taken to be 0.5 $\degree$C in this range, in order to be time efficient. The recorded observations are given in Table \ref{tab:crysttemp}.
+In order to to study the dependence of the SH power on the crystal temperature, we decided that it would be more feasible to first increase the temperature of the crystal upto a maximum possible 39.9 $\degree$C (in small steps of 0.2 $\degree$C), since the crystal was already set at a temperature of 36.7 $\degree$C; and then gradually decrease the temperature upto a minimum possible of 26.9 $\degree$C. It is also to be noted that while the readings were taken in steps of 0.2 $\degree$C down till 34.4 $\degree$C, while going further below this temperature, the reading of the power meter did not change much and therefore the steps were taken to be 0.5 $\degree$C in this range, in order to be time efficient. The recorded observations are given in Table \ref{tab:crysttemp}. The plot of the SH power vs the crystal temperature is displayed in Figure \ref{}
  
+\begin{figure}[H]
+\includegraphics[scale=1]{./imagesandplots/shpowvstemp.png}
+\centering
+\caption{Plot of the second harmonic (unattenuated) power vs the crystal temperature}
+\label{figexpt8}
+\end{figure} 
+ 
+From theory since we expect the SH power to show a $\sin$c like dependence on the crystal temperature, we fit this data with the model:
+\begin{equation}
+P_{SH}=a\left(\dfrac{\sin(b(T-T_{0}))}{b(T-T_{0})}\right)^{2}+c
+\end{equation}
 
+The optimal parameters obtained from curve fitting are as follows:
+\begin{align}
+a&=(34.060 \pm 1.493)\ \mu\rm{W}\\
+b&=0.800\pm 0.018\\
+T_{0}&=(36.366\pm 0.028)\ \degree \rm{C}\\
+c&=(12.777\pm 0.614)\ \mu\rm{W}
+\end{align}
+
+These parameters signify the following: $a$ corresponds to the maximum value of SH power recorded, $b$ is the periodicity of the $\sin$c variation, $T_{0}$ is the temperature at which peak power is measured, and $c$ is the minimum (offset) SH power reading. We see that the optimal parameters obtained are close to the expected values for this variation (especially $T_{0}$ which was also theoretically around 36.7 $\degree$C). Although the fitted curve describes the data points lying around central maximum, it fails to model the data points lying away from it. This shows up in a very large $\chi_{red}^{2}$ value of 4100.46.
+
+In addition to this, we find that prominent secondary maxima can't be seen (there is a very small one, just beyond 38 $\degree$C). This can be due to the fact these readings are so small that the resolution of the power isn't high enough to measure them accurately. Also, the observed asymmetry in the data could be attributed to the fact that the phase mismatch $\Delta k$ might not linearly depend on temperature. Also it could be because although we change the temperature, the entire crystal might not be homogeneously heated up to the same temperature.
+  
 \section{Comparison of wavelengths of second harmonic and fundamental waves}
 \subsection{Wavelength comparison using a diffraction grating}
  
