@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  24 MAY 2022 11:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  24 MAY 2022 12:02
 entering extended mode
 **./Labreport.tex
 (Labreport.tex
@@ -1131,13 +1131,13 @@ Chapter 2.
 (theory.tex [3
 
 ]
-<phase-matching.png, id=188, 136.1085pt x 124.0635pt>
+<phase-matching.png, id=193, 136.1085pt x 124.0635pt>
 File: phase-matching.png Graphic file (type png)
 <use phase-matching.png>
 Package pdftex.def Info: phase-matching.png  used on input line 36.
 (pdftex.def)             Requested size: 170.71652pt x 155.62418pt.
  [4]
-<gaussianbeam.png, id=199, 401.5pt x 195.73125pt>
+<gaussianbeam.png, id=204, 401.5pt x 195.73125pt>
 File: gaussianbeam.png Graphic file (type png)
 <use gaussianbeam.png>
 Package pdftex.def Info: gaussianbeam.png  used on input line 49.
@@ -1147,13 +1147,13 @@ Package pdftex.def Info: gaussianbeam.png  used on input line 49.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [5 <./phase-matching.png>]
-<diffraction.jpg, id=212, 535.2497pt x 373.395pt>
+<diffraction.jpg, id=217, 535.2497pt x 373.395pt>
 File: diffraction.jpg Graphic file (type jpg)
 <use diffraction.jpg>
 Package pdftex.def Info: diffraction.jpg  used on input line 90.
 (pdftex.def)             Requested size: 170.71652pt x 119.0957pt.
  [6 <./gaussianbeam.png>]
-<michelson.png, id=228, 431.6125pt x 321.2pt>
+<michelson.png, id=233, 431.6125pt x 321.2pt>
 File: michelson.png Graphic file (type png)
 <use michelson.png>
 Package pdftex.def Info: michelson.png  used on input line 108.
@@ -1165,7 +1165,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [7 <./diffraction.jpg>] [8 <./michelson.png>]
 Chapter 3.
 (Experiment.tex
-<./imagesandplots/pic1.png, id=246, 545.6385pt x 190.311pt>
+<./imagesandplots/pic1.png, id=251, 545.6385pt x 190.311pt>
 File: ./imagesandplots/pic1.png Graphic file (type png)
 <use ./imagesandplots/pic1.png>
 Package pdftex.def Info: ./imagesandplots/pic1.png  used on input line 11.
@@ -1173,7 +1173,7 @@ Package pdftex.def Info: ./imagesandplots/pic1.png  used on input line 11.
  [9
 
  <./imagesandplots/pic1.png>]
-<./imagesandplots/attvsunattcalib.pdf, id=258, 578.16pt x 433.62pt>
+<./imagesandplots/attvsunattcalib.pdf, id=263, 578.16pt x 433.62pt>
 File: ./imagesandplots/attvsunattcalib.pdf Graphic file (type pdf)
 <use ./imagesandplots/attvsunattcalib.pdf>
 Package pdftex.def Info: ./imagesandplots/attvsunattcalib.pdf  used on input li
@@ -1193,32 +1193,32 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 56.
 
 [11]
-<./imagesandplots/injcvsunattpow.pdf, id=336, 578.16pt x 433.62pt>
+<./imagesandplots/injcvsunattpow.pdf, id=341, 578.16pt x 433.62pt>
 File: ./imagesandplots/injcvsunattpow.pdf Graphic file (type pdf)
 <use ./imagesandplots/injcvsunattpow.pdf>
 Package pdftex.def Info: ./imagesandplots/injcvsunattpow.pdf  used on input lin
 e 73.
 (pdftex.def)             Requested size: 407.66833pt x 305.74846pt.
  [12 <./imagesandplots/injcvsunattpow.pdf>] [13]
-<./imagesandplots/pic2.png, id=419, 721.4955pt x 195.73125pt>
+<./imagesandplots/pic2.png, id=424, 721.4955pt x 195.73125pt>
 File: ./imagesandplots/pic2.png Graphic file (type png)
 <use ./imagesandplots/pic2.png>
 Package pdftex.def Info: ./imagesandplots/pic2.png  used on input line 124.
 (pdftex.def)             Requested size: 288.59308pt x 78.2911pt.
-<./imagesandplots/variabattcalib.pdf, id=423, 578.16pt x 433.62pt>
+<./imagesandplots/variabattcalib.pdf, id=428, 578.16pt x 433.62pt>
 File: ./imagesandplots/variabattcalib.pdf Graphic file (type pdf)
 <use ./imagesandplots/variabattcalib.pdf>
 Package pdftex.def Info: ./imagesandplots/variabattcalib.pdf  used on input lin
 e 133.
 (pdftex.def)             Requested size: 407.66833pt x 305.74846pt.
  [14 <./imagesandplots/pic2.png> <./imagesandplots/variabattcalib.pdf>] [15]
-<./imagesandplots/pic3.png, id=521, 849.77475pt x 237.88875pt>
+<./imagesandplots/pic3.png, id=526, 849.77475pt x 237.88875pt>
 File: ./imagesandplots/pic3.png Graphic file (type png)
 <use ./imagesandplots/pic3.png>
 Package pdftex.def Info: ./imagesandplots/pic3.png  used on input line 172.
 (pdftex.def)             Requested size: 339.90387pt x 95.15381pt.
  [16 <./imagesandplots/pic3.png>] [17] [18]
-<./imagesandplots/shpowvsfundpow.pdf, id=555, 578.16pt x 433.62pt>
+<./imagesandplots/shpowvsfundpow.pdf, id=560, 578.16pt x 433.62pt>
 File: ./imagesandplots/shpowvsfundpow.pdf Graphic file (type pdf)
 <use ./imagesandplots/shpowvsfundpow.pdf>
 Package pdftex.def Info: ./imagesandplots/shpowvsfundpow.pdf  used on input lin
@@ -1233,14 +1233,14 @@ Overfull \hbox (6.88629pt too wide) in paragraph at lines 290--290
 
 LaTeX Warning: Reference `' on page 21 undefined on input line 300.
 
-<./imagesandplots/shpowvstemp.png, id=643, 433.62pt x 289.08pt>
+<./imagesandplots/shpowvstemp.png, id=648, 433.62pt x 289.08pt>
 File: ./imagesandplots/shpowvstemp.png Graphic file (type png)
 <use ./imagesandplots/shpowvstemp.png>
 Package pdftex.def Info: ./imagesandplots/shpowvstemp.png  used on input line 3
 03.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
 [21] [22 <./imagesandplots/shpowvstemp.png>]
-<diffgrat.png, id=665, 647.41875pt x 475.7775pt>
+<diffgrat.png, id=670, 647.41875pt x 475.7775pt>
 File: diffgrat.png Graphic file (type png)
 <use diffgrat.png>
 Package pdftex.def Info: diffgrat.png  used on input line 332.
@@ -1250,18 +1250,49 @@ Package pdftex.def Info: diffgrat.png  used on input line 332.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 354.
 
-) [24] [25] [26
+[24]
+
+LaTeX Warning: Reference `fig:lissajous' on page 25 undefined on input line 381
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
+
+ []
+
+<./imagesandplots/lissjous1.jpg, id=692, 1017.8025pt x 761.84625pt>
+File: ./imagesandplots/lissjous1.jpg Graphic file (type jpg)
+<use ./imagesandplots/lissjous1.jpg>
+Package pdftex.def Info: ./imagesandplots/lissjous1.jpg  used on input line 385
+.
+(pdftex.def)             Requested size: 85.35826pt x 63.89001pt.
+<./imagesandplots/lissjous2.jpg, id=693, 967.615pt x 725.71124pt>
+File: ./imagesandplots/lissjous2.jpg Graphic file (type jpg)
+<use ./imagesandplots/lissjous2.jpg>
+Package pdftex.def Info: ./imagesandplots/lissjous2.jpg  used on input line 386
+.
+(pdftex.def)             Requested size: 85.35826pt x 64.0156pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 391.
+
+) [25 <./imagesandplots/lissjous1.jpg> <./imagesandplots/lissjous2.jpg>]
+[26]
+Chapter 4.
+(Conclusion.tex) [27
+
+] [28
 
 ]
 Appendix A.
-(Appendix.tex [27
+(Appendix.tex [29
 
 ]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 81.
 
-[28] [29] [30]
+[30] [31] [32]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 224.
@@ -1270,21 +1301,21 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 271.
 
-) [31] [32] [33] (Labreport.aux)
+) [33] [34] [35] (Labreport.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Labreport.out' has not changed.
-(rerunfilecheck)             Checksum: 23D8F8E579B08D4A4E6ED3F1095B0DFA;7514.
+(rerunfilecheck)             Checksum: 7B8229BE041991EA9BA4D479C48C4B0E;7608.
 Package logreq Info: Writing requests to 'Labreport.run.xml'.
 \openout1 = `Labreport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24855 strings out of 478864
- 466169 string characters out of 2845307
- 1261746 words of memory out of 3000000
- 42287 multiletter control sequences out of 15000+600000
+ 24884 strings out of 478864
+ 466868 string characters out of 2845307
+ 1261877 words of memory out of 3000000
+ 42306 multiletter control sequences out of 15000+600000
  419826 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,16n,81p,2119b,1742s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1312,9 +1343,9 @@ lic/amsfonts/cm/cmsy7.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Mrunmoy Jen
 a/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Labreport.pdf (34 pages, 1162871 bytes).
+Output written on Labreport.pdf (36 pages, 1211621 bytes).
 PDF statistics:
- 835 PDF objects out of 1000 (max. 8388607)
- 144 named destinations out of 1000 (max. 500000)
- 306 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 855 PDF objects out of 1000 (max. 8388607)
+ 149 named destinations out of 1000 (max. 500000)
+ 324 words of extra memory for PDF output out of 10000 (max. 10000000)
 

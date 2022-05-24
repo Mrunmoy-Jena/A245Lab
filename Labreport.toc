@@ -58,4 +58,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.2}Wavelength comparison using a Michelson interferometer}{24}{subsection.3.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{27}{appendix.A}%
+\contentsline {chapter}{\numberline {4}Conclusion}{27}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Appendix}{29}{appendix.A}%
