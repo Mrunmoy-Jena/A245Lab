@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  24 MAY 2022 02:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  24 MAY 2022 02:40
 entering extended mode
 **./Labreport.tex
 (Labreport.tex
@@ -1100,21 +1100,13 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Labreport.bbl' found.
- (Labreport.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                yarivqm
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (Labreport.bbl)
 Package biblatex Info: Reference section=0 on input line 29.
 Package biblatex Info: Reference segment=0 on input line 29.
  [1
 
-{C:/Users/Mrunmoy Jena/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-(Labreport.toc
+{C:/Users/Mrunmoy Jena/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (Labrepo
+rt.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -1146,17 +1138,10 @@ File: phase-matching.png Graphic file (type png)
 <use phase-matching.png>
 Package pdftex.def Info: phase-matching.png  used on input line 36.
 (pdftex.def)             Requested size: 170.71652pt x 155.62418pt.
-
-
-LaTeX Warning: Reference `mes' on page 4 undefined on input line 37.
-
-
-LaTeX Warning: Reference `mes' on page 4 undefined on input line 37.
-
-[4]) [5 <./phase-matching.png>]
+ [4]) [5 <./phase-matching.png>]
 Chapter 3.
 (Experiment.tex
-<./imagesandplots/pic1.png, id=179, 545.6385pt x 190.311pt>
+<./imagesandplots/pic1.png, id=181, 545.6385pt x 190.311pt>
 File: ./imagesandplots/pic1.png Graphic file (type png)
 <use ./imagesandplots/pic1.png>
 Package pdftex.def Info: ./imagesandplots/pic1.png  used on input line 11.
@@ -1164,7 +1149,7 @@ Package pdftex.def Info: ./imagesandplots/pic1.png  used on input line 11.
  [6
 
  <./imagesandplots/pic1.png>]
-<./imagesandplots/attvsunattcalib.pdf, id=191, 578.16pt x 433.62pt>
+<./imagesandplots/attvsunattcalib.pdf, id=193, 578.16pt x 433.62pt>
 File: ./imagesandplots/attvsunattcalib.pdf Graphic file (type pdf)
 <use ./imagesandplots/attvsunattcalib.pdf>
 Package pdftex.def Info: ./imagesandplots/attvsunattcalib.pdf  used on input li
@@ -1184,32 +1169,32 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 56.
 
 [8]
-<./imagesandplots/injcvsunattpow.pdf, id=269, 578.16pt x 433.62pt>
+<./imagesandplots/injcvsunattpow.pdf, id=271, 578.16pt x 433.62pt>
 File: ./imagesandplots/injcvsunattpow.pdf Graphic file (type pdf)
 <use ./imagesandplots/injcvsunattpow.pdf>
 Package pdftex.def Info: ./imagesandplots/injcvsunattpow.pdf  used on input lin
 e 73.
 (pdftex.def)             Requested size: 407.66833pt x 305.74846pt.
  [9 <./imagesandplots/injcvsunattpow.pdf>] [10]
-<./imagesandplots/pic2.png, id=351, 721.4955pt x 195.73125pt>
+<./imagesandplots/pic2.png, id=353, 721.4955pt x 195.73125pt>
 File: ./imagesandplots/pic2.png Graphic file (type png)
 <use ./imagesandplots/pic2.png>
 Package pdftex.def Info: ./imagesandplots/pic2.png  used on input line 124.
 (pdftex.def)             Requested size: 288.59308pt x 78.2911pt.
-<./imagesandplots/variabattcalib.pdf, id=355, 578.16pt x 433.62pt>
+<./imagesandplots/variabattcalib.pdf, id=357, 578.16pt x 433.62pt>
 File: ./imagesandplots/variabattcalib.pdf Graphic file (type pdf)
 <use ./imagesandplots/variabattcalib.pdf>
 Package pdftex.def Info: ./imagesandplots/variabattcalib.pdf  used on input lin
 e 133.
 (pdftex.def)             Requested size: 407.66833pt x 305.74846pt.
  [11 <./imagesandplots/pic2.png> <./imagesandplots/variabattcalib.pdf>] [12]
-<./imagesandplots/pic3.png, id=454, 849.77475pt x 237.88875pt>
+<./imagesandplots/pic3.png, id=456, 849.77475pt x 237.88875pt>
 File: ./imagesandplots/pic3.png Graphic file (type png)
 <use ./imagesandplots/pic3.png>
 Package pdftex.def Info: ./imagesandplots/pic3.png  used on input line 172.
 (pdftex.def)             Requested size: 339.90387pt x 95.15381pt.
  [13 <./imagesandplots/pic3.png>] [14] [15]
-<./imagesandplots/shpowvsfundpow.pdf, id=487, 578.16pt x 433.62pt>
+<./imagesandplots/shpowvsfundpow.pdf, id=489, 578.16pt x 433.62pt>
 File: ./imagesandplots/shpowvsfundpow.pdf Graphic file (type pdf)
 <use ./imagesandplots/shpowvsfundpow.pdf>
 Package pdftex.def Info: ./imagesandplots/shpowvsfundpow.pdf  used on input lin
@@ -1238,9 +1223,6 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 224.
 
 ) [24] [25] (Labreport.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Labreport.out' has not changed.
 (rerunfilecheck)             Checksum: C7E219D48853BAECEC365FDE0815DA5B;5722.
 Package logreq Info: Writing requests to 'Labreport.run.xml'.
@@ -1248,9 +1230,9 @@ Package logreq Info: Writing requests to 'Labreport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24751 strings out of 478864
- 464161 string characters out of 2845307
- 1260459 words of memory out of 3000000
+ 24752 strings out of 478864
+ 464240 string characters out of 2845307
+ 1260487 words of memory out of 3000000
  42234 multiletter control sequences out of 15000+600000
  419826 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1278,9 +1260,9 @@ m/cmsy7.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmti10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Mrunmoy Jena/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Labreport.pdf (27 pages, 547076 bytes).
+Output written on Labreport.pdf (27 pages, 548287 bytes).
 PDF statistics:
- 708 PDF objects out of 1000 (max. 8388607)
- 102 named destinations out of 1000 (max. 500000)
+ 713 PDF objects out of 1000 (max. 8388607)
+ 103 named destinations out of 1000 (max. 500000)
  233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
