@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  24 MAY 2022 09:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  24 MAY 2022 10:45
 entering extended mode
 **./Labreport.tex
 (Labreport.tex
@@ -1133,29 +1133,39 @@ Chapter 2.
 (theory.tex [3
 
 ]
-<phase-matching.png, id=167, 136.1085pt x 124.0635pt>
+<phase-matching.png, id=187, 136.1085pt x 124.0635pt>
 File: phase-matching.png Graphic file (type png)
 <use phase-matching.png>
 Package pdftex.def Info: phase-matching.png  used on input line 36.
 (pdftex.def)             Requested size: 170.71652pt x 155.62418pt.
- [4]) [5 <./phase-matching.png>]
+ [4]
+<gaussianbeam.png, id=198, 401.5pt x 195.73125pt>
+File: gaussianbeam.png Graphic file (type png)
+<use gaussianbeam.png>
+Package pdftex.def Info: gaussianbeam.png  used on input line 49.
+(pdftex.def)             Requested size: 170.71652pt x 83.22499pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <./phase-matching.png>]) [6 <./gaussianbeam.png>]
 Chapter 3.
 (Experiment.tex
-<./imagesandplots/pic1.png, id=186, 545.6385pt x 190.311pt>
+<./imagesandplots/pic1.png, id=222, 545.6385pt x 190.311pt>
 File: ./imagesandplots/pic1.png Graphic file (type png)
 <use ./imagesandplots/pic1.png>
 Package pdftex.def Info: ./imagesandplots/pic1.png  used on input line 11.
 (pdftex.def)             Requested size: 218.25153pt x 76.12303pt.
- [6
+ [7
 
  <./imagesandplots/pic1.png>]
-<./imagesandplots/attvsunattcalib.pdf, id=198, 578.16pt x 433.62pt>
+<./imagesandplots/attvsunattcalib.pdf, id=234, 578.16pt x 433.62pt>
 File: ./imagesandplots/attvsunattcalib.pdf Graphic file (type pdf)
 <use ./imagesandplots/attvsunattcalib.pdf>
 Package pdftex.def Info: ./imagesandplots/attvsunattcalib.pdf  used on input li
 ne 24.
 (pdftex.def)             Requested size: 407.66833pt x 305.74846pt.
- [7 <./imagesandplots/attvsunattcalib.pdf>]
+ [8 <./imagesandplots/attvsunattcalib.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 56.
@@ -1168,85 +1178,89 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 56.
 
-[8]
-<./imagesandplots/injcvsunattpow.pdf, id=276, 578.16pt x 433.62pt>
+[9]
+<./imagesandplots/injcvsunattpow.pdf, id=312, 578.16pt x 433.62pt>
 File: ./imagesandplots/injcvsunattpow.pdf Graphic file (type pdf)
 <use ./imagesandplots/injcvsunattpow.pdf>
 Package pdftex.def Info: ./imagesandplots/injcvsunattpow.pdf  used on input lin
 e 73.
 (pdftex.def)             Requested size: 407.66833pt x 305.74846pt.
- [9 <./imagesandplots/injcvsunattpow.pdf>] [10]
-<./imagesandplots/pic2.png, id=358, 721.4955pt x 195.73125pt>
+ [10 <./imagesandplots/injcvsunattpow.pdf>] [11]
+<./imagesandplots/pic2.png, id=395, 721.4955pt x 195.73125pt>
 File: ./imagesandplots/pic2.png Graphic file (type png)
 <use ./imagesandplots/pic2.png>
 Package pdftex.def Info: ./imagesandplots/pic2.png  used on input line 124.
 (pdftex.def)             Requested size: 288.59308pt x 78.2911pt.
-<./imagesandplots/variabattcalib.pdf, id=362, 578.16pt x 433.62pt>
+<./imagesandplots/variabattcalib.pdf, id=399, 578.16pt x 433.62pt>
 File: ./imagesandplots/variabattcalib.pdf Graphic file (type pdf)
 <use ./imagesandplots/variabattcalib.pdf>
 Package pdftex.def Info: ./imagesandplots/variabattcalib.pdf  used on input lin
 e 133.
 (pdftex.def)             Requested size: 407.66833pt x 305.74846pt.
- [11 <./imagesandplots/pic2.png> <./imagesandplots/variabattcalib.pdf>] [12]
-<./imagesandplots/pic3.png, id=461, 849.77475pt x 237.88875pt>
+ [12 <./imagesandplots/pic2.png> <./imagesandplots/variabattcalib.pdf>] [13]
+<./imagesandplots/pic3.png, id=497, 849.77475pt x 237.88875pt>
 File: ./imagesandplots/pic3.png Graphic file (type png)
 <use ./imagesandplots/pic3.png>
 Package pdftex.def Info: ./imagesandplots/pic3.png  used on input line 172.
 (pdftex.def)             Requested size: 339.90387pt x 95.15381pt.
- [13 <./imagesandplots/pic3.png>] [14] [15]
-<./imagesandplots/shpowvsfundpow.pdf, id=494, 578.16pt x 433.62pt>
+ [14 <./imagesandplots/pic3.png>] [15] [16]
+<./imagesandplots/shpowvsfundpow.pdf, id=530, 578.16pt x 433.62pt>
 File: ./imagesandplots/shpowvsfundpow.pdf Graphic file (type pdf)
 <use ./imagesandplots/shpowvsfundpow.pdf>
 Package pdftex.def Info: ./imagesandplots/shpowvsfundpow.pdf  used on input lin
 e 262.
 (pdftex.def)             Requested size: 407.66833pt x 305.74846pt.
- [16] [17 <./imagesandplots/shpowvsfundpow.pdf>]
+ [17] [18 <./imagesandplots/shpowvsfundpow.pdf>]
 Overfull \hbox (6.88629pt too wide) in paragraph at lines 290--290
 |[]\OT1/cmr/bx/n/12 Variation of har-monic power with po-lar-iza-tion of fun-da
 -men-tal wave| 
  []
 
-<diffgrat.png, id=583, 647.41875pt x 475.7775pt>
+<diffgrat.png, id=620, 647.41875pt x 475.7775pt>
 File: diffgrat.png Graphic file (type png)
 <use diffgrat.png>
-Package pdftex.def Info: diffgrat.png  used on input line 303.
+Package pdftex.def Info: diffgrat.png  used on input line 309.
 (pdftex.def)             Requested size: 170.71652pt x 125.45609pt.
-[18]
+[19]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 325.
+               Default added (so using `tbp') on input line 331.
 
-) [19 <./diffgrat.png>] [20] [21
+[20 <./diffgrat.png>]) [21] [22] [23
 
 ]
 Appendix A.
-(Appendix.tex [22
+(Appendix.tex [24
 
 ]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 81.
 
-[23] [24] [25]
+[25] [26] [27]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 224.
 
-) [26] [27] (Labreport.aux)
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 271.
+
+) [28] [29] [30] (Labreport.aux)
 Package rerunfilecheck Info: File `Labreport.out' has not changed.
-(rerunfilecheck)             Checksum: F0253FB426B9D822BA25407A25EE9C3F;5956.
+(rerunfilecheck)             Checksum: 19591BF1B6E007FF91AC33A20D03DA48;7268.
 Package logreq Info: Writing requests to 'Labreport.run.xml'.
 \openout1 = `Labreport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24773 strings out of 478864
- 464544 string characters out of 2845307
- 1261059 words of memory out of 3000000
- 42243 multiletter control sequences out of 15000+600000
+ 24804 strings out of 478864
+ 465084 string characters out of 2845307
+ 1261326 words of memory out of 3000000
+ 42258 multiletter control sequences out of 15000+600000
  419826 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,16n,81p,2119b,1722s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,16n,81p,2119b,1728s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super
 /cm-super-ts1.enc}<C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs
@@ -1271,9 +1285,9 @@ lic/amsfonts/cm/cmsy7.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Mrunmoy Jen
 a/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Labreport.pdf (29 pages, 598930 bytes).
+Output written on Labreport.pdf (32 pages, 622690 bytes).
 PDF statistics:
- 747 PDF objects out of 1000 (max. 8388607)
- 114 named destinations out of 1000 (max. 500000)
- 246 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 797 PDF objects out of 1000 (max. 8388607)
+ 129 named destinations out of 1000 (max. 500000)
+ 283 words of extra memory for PDF output out of 10000 (max. 10000000)
 

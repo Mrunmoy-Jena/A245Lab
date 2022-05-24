@@ -51,6 +51,34 @@
       \field{title}{Optics, light and lasers}
       \field{year}{2017}
     \endentry
+    \entry{gaussbeam}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=93d707cc77f037fd02e1c8cfa75317cf}{%
+           family={Commons},
+           familyi={C\bibinitperiod},
+           given={Wikimedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{fullhash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{bibnamehash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{authorbibnamehash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{authornamehash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{authorfullhash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 22-May-2022]}
+      \field{title}{File:Gaussianbeam.png --- Wikimedia Commons{,} the free media repository}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://commons.wikimedia.org/w/index.php?title=File:Gaussianbeam.png&oldid=458744977
+      \endverb
+      \verb{url}
+      \verb https://commons.wikimedia.org/w/index.php?title=File:Gaussianbeam.png&oldid=458744977
+      \endverb
+    \endentry
     \entry{UB}{misc}{}
       \name{author}{1}{}{%
         {{hash=06df9bddc9b0078ef7ec72ef1530928d}{%
@@ -63,8 +91,8 @@
       \strng{authorbibnamehash}{06df9bddc9b0078ef7ec72ef1530928d}
       \strng{authornamehash}{06df9bddc9b0078ef7ec72ef1530928d}
       \strng{authorfullhash}{06df9bddc9b0078ef7ec72ef1530928d}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{A}245 Experiment Description}
@@ -96,8 +124,8 @@
       \strng{authorbibnamehash}{393b87df6d07259dd527339bff903b51}
       \strng{authornamehash}{227af69b1f16d4f1488db4f40f19f5af}
       \strng{authorfullhash}{393b87df6d07259dd527339bff903b51}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Dos and don'ts of reduced chi-squared}
