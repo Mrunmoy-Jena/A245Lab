@@ -42,3 +42,43 @@ Even though this method is neater than the previous method, it still has one dra
 \subsection{Non-critical Phase Matching}
 In a non-critical phase matching, we try to achieve phase matching through methods that don't depend on the angle. One such way is to change the temperature of the material to achieve phase matching. This is not used separately, but rather used in tandem with the critical methods. The critical methods are used to achieve a rough phase matching and then the temperature of the crystal is varied to achieve finer phase matching.
 
+\section{Gaussian Beams}
+A beam of electromagnetic wave such that the amplitude envelope in the transverse plane is given by a Gaussian function is called a Gaussian beam. Such beams also have high monochromaticity. These beams model laser output very well. A schematic of a typical Gaussian beam is given in the figure\ref{fig:gaussianbeam}. The most important parameter for a Gaussian beam is the beam waist, $w_o$, which is the minimal beam width. Other parameters that characterise a Gaussian beam are the confocal parameter, $b$ which is twice the Rayleigh length, $z_R$. Rayleigh length is the distance between the point of minimal beam width and the point of $sqrt{2}$ time minimal beam width. Asymptotically, the beam profile becomes linear, which means we can define beam divergence, $\Theta$ to quantify this asymptotic behaviour.\\
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width = 6cm]{gaussianbeam.png}
+    \caption{Schematic of a typical Gaussian beam\cite{gaussbeam}}
+    \label{fig:gaussianbeam}
+\end{figure}
+When using a laser source, it is not possible to have completely parallel beams pass through the full crystal length. One extreme is where we have high intensity in a small region of the crystal with high divergence and the other extreme is where we have low divergence with low intensity. We have to come up with a compromise so as to balance out these extremes. Such an optimisation is given by the Boyd-Kleinmann relation,
+\begin{equation}
+    \frac{L}{b} = 2.84,
+\end{equation}
+where L is the length of the crystal,\\
+For our setup, $L = 5mm$ and the refractive index, $n = 2.2 \pm 0.1$. The focal length of the lens, $f = 60mm$ and the wavelength of the fundamental beam is $\lambda = 987 nm$. The diameter of the laser is $d = 3.5 \pm 0.5mm$. This gives the minimal beam width as,
+\begin{equation}
+\begin{split}
+    w_0 &= \frac{\lambda f}{\pi d/2} = 10.8 \mu m \\
+    \Delta w_0 &= \frac{2\lambda f\Delta d}{\pi d^2} = 1.5 \mu m.
+\end{split}
+\end{equation}
+The confocal parameter then is,
+\begin{equation}
+\begin{split}
+    b &= \frac{2\pi n w_0^2}{\lambda} = 1.62mm \\
+    \Delta b &= \frac{2\pi}{\lambda}\sqrt{(\Delta nw_0^2)^2 + (2nw_0\Delta w_0)} = 0.47mm.
+\end{split}
+\end{equation}
+We can now check if the Boyd-Kleinmann relation is satisfied,
+\begin{equation}
+    \frac{L}{b} = 3.09 \pm 0.89.
+\end{equation}
+We note that the Boyd-Kleinmann relation is satisfied within one standard deviation. If we are to choose the lens so as to satisfy the Boyd-Kleinmann relation,
+\begin{equation}
+\begin{split}
+    b &= \frac{L}{2.84} = 1.76mm \\
+    w_0 &= \sqrt{\frac{b\lambda}{2\pi n}} = 11.2 \mu m \\
+    f &= \frac{\pi d w_0}{2 \lambda} = 62.5 mm.
+\end{split}
+\end{equation}
+We see that we need to use a lens of wavelength $62.5mm$, which is close enough.
