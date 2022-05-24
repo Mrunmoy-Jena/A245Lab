@@ -19,6 +19,38 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{mes}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8fe294dd7320c681ff6f5a57199d37d2}{%
+           family={Meschede},
+           familyi={M\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Weinheim, Germany}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-VCH Verlag}%
+      }
+      \strng{namehash}{8fe294dd7320c681ff6f5a57199d37d2}
+      \strng{fullhash}{8fe294dd7320c681ff6f5a57199d37d2}
+      \strng{bibnamehash}{8fe294dd7320c681ff6f5a57199d37d2}
+      \strng{authorbibnamehash}{8fe294dd7320c681ff6f5a57199d37d2}
+      \strng{authornamehash}{8fe294dd7320c681ff6f5a57199d37d2}
+      \strng{authorfullhash}{8fe294dd7320c681ff6f5a57199d37d2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{month}{4}
+      \field{title}{Optics, light and lasers}
+      \field{year}{2017}
+    \endentry
     \entry{UB}{misc}{}
       \name{author}{1}{}{%
         {{hash=06df9bddc9b0078ef7ec72ef1530928d}{%
@@ -31,8 +63,8 @@
       \strng{authorbibnamehash}{06df9bddc9b0078ef7ec72ef1530928d}
       \strng{authornamehash}{06df9bddc9b0078ef7ec72ef1530928d}
       \strng{authorfullhash}{06df9bddc9b0078ef7ec72ef1530928d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{A}245 Experiment Description}
@@ -64,8 +96,8 @@
       \strng{authorbibnamehash}{393b87df6d07259dd527339bff903b51}
       \strng{authornamehash}{227af69b1f16d4f1488db4f40f19f5af}
       \strng{authorfullhash}{393b87df6d07259dd527339bff903b51}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Dos and don'ts of reduced chi-squared}
@@ -82,6 +114,7 @@
       \keyw{Instrumentation and Methods for Astrophysics (astro-ph.IM),Data Analysis,Statistics and Probability (physics.data-an),Methodology (stat.ME),FOS: Physical sciences,FOS: Physical sciences,FOS: Computer and information sciences,FOS: Computer and information sciences}
     \endentry
   \enddatalist
+  \missing{yarivqm}
 \endrefsection
 \endinput
 

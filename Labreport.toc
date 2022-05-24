@@ -4,30 +4,46 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Experiment and Analysis of Results}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Theory}{3}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Power measurements of the diode laser}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Generation of Harmonics}{3}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Calibration of removable attenuator}{4}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Birefringence and Retarder Plates}{4}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Calculation of unattenuated power values above 19 $\mathbf {\mu }$W}{5}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.3}Phase Matching}{4}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Study of dependence of fundamental output power on the injection current}{6}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.3.1}Type I Phase Matching}{4}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.4}Calculation of laser output characteristics}{7}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.3.2}Type II Phase Matching}{5}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.5}Calibration of variable attenuator}{7}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.3.3}Non-critical Phase Matching}{5}{subsection.2.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Second harmonic wave generation}{9}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Experiment and Analysis of Results}{6}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Focusing the laser beam into the non-linear crystal}{10}{subsection.2.2.1}%
+\contentsline {section}{\numberline {3.1}Power measurements of the diode laser}{6}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Optimizing the second harmonic power}{11}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {3.1.1}Calibration of removable attenuator}{7}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Calculation of Gaussian beam parameters}{11}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {3.1.2}Calculation of unattenuated power values above 19 $\mathbf {\mu }$W}{8}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Dependence of second harmonic wave power on different variables}{13}{section.2.3}%
+\contentsline {subsection}{\numberline {3.1.3}Study of dependence of fundamental output power on the injection current}{9}{subsection.3.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Variation of harmonic power with fundamental wave power}{13}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {3.1.4}Calculation of laser output characteristics}{10}{subsection.3.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{15}{appendix.A}%
+\contentsline {subsection}{\numberline {3.1.5}Calibration of variable attenuator}{10}{subsection.3.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Second harmonic wave generation}{12}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Focusing the laser beam into the non-linear crystal}{13}{subsection.3.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Optimizing the second harmonic power}{14}{subsection.3.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Calculation of Gaussian beam parameters}{14}{subsection.3.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Dependence of second harmonic wave power on different variables}{16}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Variation of harmonic power with fundamental wave power}{16}{subsection.3.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Variation of harmonic power with polarization of fundamental wave}{18}{subsection.3.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Appendix}{20}{appendix.A}%

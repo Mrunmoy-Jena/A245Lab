@@ -148,12 +148,7 @@ c&=1.9983\pm 0.0007\\
 \theta_{0}&=(26.590\pm 0.027)\degree
 \end{align*}
 
-Therefore the fitting function becomes: 
-\begin{equation}
-P_{trans}=(0.540\pm 0.102)+(129.561\pm 0.167)\cos^{2}\left(\dfrac{\pi}{180}(1.9983\pm 0.0007)(\theta-(26.590\pm 0.027))\right) \ \mu\rm{W}
-\end{equation}
-
-As the data in this case is free from the complications discussed in Section \ref{Calib}, we use the $\chi^{2}$ test for goodness of fit. The reduced $\chi^{2}$ value comes out to be 1.47, which tells us that that the model $\cos^{2}\theta$ curve fits the data (including the respective errors) well enough. 
+As the data in this case is free from the complications discussed in Section \ref{Calib}, we use the $\chi^{2}$ test for goodness of fit. The reduced $\chi^{2}$ value comes out to be 1.47, which tells us that that the model $\cos^{2}\theta$ curve fits the data well enough. 
 
 Given that we now have a calibration curve that describes the variation of transmitted fundamental power with the polarization angle, it is possible to measure just the variation of second harmonic power with the angle, $\theta$ to in turn get the dependence of second harmonic power on fundamental power, using the calibration curve. \label{variablecalib}
 
@@ -176,7 +171,7 @@ The first step for second harmonic wave generation was to devise a method to foc
 \begin{figure}[H]
 \includegraphics[scale=0.4]{./imagesandplots/pic3.png}
 \centering
-\caption{Configuration for focusing of fundamental wave and subsequent collimation of light transmitted through the non-linear crystal \cite{UB}}
+\caption{Arrangement for focusing of fundamental wave and subsequent collimation of light transmitted through the non-linear crystal \cite{UB}}
 \label{figexpt6}
 \end{figure}
 
@@ -258,4 +253,39 @@ The value obtained for the optimal focal length is then $f_{opt}=60.000\pm 8.571
 For this part of the experiment, the properties of the SH beam power had to be studied by finding its relation to the crystal temperature, fundamental wave power and the fundamental wave polarization. It is to be noted that although the manual instructs us to first study the variation of the SH power to crystal temperature, we performed this part at the end, since given that the crystal was already heated up to (nearly) its optimal temperature, it was feasible to readily record SH power variation with fundamental beam power and polarization, without disturbing the temperature of the crystal. 
 
 \subsection{Variation of harmonic power with fundamental wave power} 
-For studying this dependence, we find that the power meter cannot be moved each time to measure both the power of the fundamental power as well as SH power. Therefore, as discussed towards the end of Section \ref{variablecalib}, we measured the dependence of the SH power on the rotation angle of the $\lambda /2$ plate and used the calibration curve obtained to find the direct dependence between SH beam power and the fundamental beam power. In addition to this, it is to be noted that while we measured the SH power with attenuator in this experiment, the fundamental power was measured with the attenuator attached to the power meter, while doing the calibration in Section \ref{variablecalib}. The recorded values are given in Table \ref{tab:shpowvsfundpow}.
+For studying this dependence, we find that the power meter cannot be moved each time to measure both the power of the fundamental power as well as SH power. Therefore, as discussed towards the end of Section \ref{variablecalib}, we measured the dependence of the SH power on the rotation angle of the $\lambda /2$ plate and used the calibration curve obtained to find the direct dependence between SH beam power and the fundamental beam power. In addition to this, it is to be noted that while we measured the SH power without attenuator in this experiment, the fundamental power was measured with the attenuator attached to the power meter, while doing the calibration in Section \ref{variablecalib}. The recorded values are given in Table \ref{tab:shpowvsfundpow}.
+
+\label{anomaly}
+It is to be noted that while these readings were being taken by varying the rotation angle of the $\lambda /2$ plate, a drastic drop in SH power was observed after an angle of $122.5 \degree$. While the SH power was found to be 32.6 $\mu$W at $122.5 \degree$, it decreased significantly to 22.2 $\mu$W at $125 \degree$, and then kept decreasing gradually below this value as rotation angle was increased. When the $\lambda /2$ plate was rotated back to the angle ($27.5 \degree$) at which SH power had earlier attained a maximum of 36.6 $\mu$W ; we now recorded only a peak value of 25.4 $\mu$W. In order to get back the former value of SH power, attempts were made to fine tune the position of the crystal in all three directions, however it was not possible to recover from this drop of about 11.2 $\mu$W. The only reasons that this drop in SH power could have happened are that there might have been a sudden temperature fluctuation of the laser itself or that that the wavelength emitted by the laser diode changed slightly, again due to some internal instability. Given that it was not possible to account for these changes, we continued our observations with this new reduced value of SH power. The plot of the variation of the SH power (unattenuated) with fundamental power (attenuated) only upto the aforementioned angle of $122.5 \degree$ is displayed in Figure \ref{figexpt7}.
+
+\begin{figure}[H]
+\includegraphics[width=0.9\textwidth]{./imagesandplots/shpowvsfundpow.pdf}
+\centering
+\caption{Plot of the second harmonic (unattenuated) power vs the fundamental (attenuated) power}
+\label{figexpt7}
+\end{figure}
+
+From the theory \cite{yarivqm}, we expect the SH power to depend on the fundamental power as: 
+\begin{equation}
+P_{SH}=\eta P_{F}^{2}
+\end{equation}
+where $\eta$ is the efficiency.
+Thereforem to fit this curve, we choose a model following general form of a parabola:
+\begin{equation}
+P_{SH}=aP_{F}^{2}+bP_{F}+c
+\end{equation}
+We take initial guess parameters as: $a=1/500$ (we used this because, $x$ value of 100 gives a $y$ value of around 20; assuming quadratic dependence, this would give the factor to be multiplied with $x^{2}$ as $20/10000=1/500$), $b=0$ (linear dependence is assumed to be very small) and $c=0$ (no offset can be seen from the $x$-axis). The curve fitting module yields the following optimal parameter values:
+\begin{align*}
+a&=(0.0022\pm 9.3988\times 10^{-6})\ \mu\rm{W}^{-1}\\
+b&=-0.0031\pm 0.0013\\
+c&=(0.0562\pm 0.0367)\ \mu\rm{W}
+\end{align*}  
+We find that while $a$ has a very small error relative to its calculated value, the errors in parameters $b$ and $c$ are of the same order of magnitude as the values themselves. Since these two parameters can be affected heavily by their own statistical errors, they can be regarded as unimportant and we can say that the data points approximately follow the relation $P_{SH}\approx\eta P_{F}^{2}$. The efficiency $\eta$ is same as the optimal value of parameter $a$ and is therefore: 
+\begin{equation}
+\eta=(0.0022\pm 9.3988\times 10^{-6})\ \mu\rm{W}^{-1}
+\end{equation}
+
+Although it can be clearly seen that the data points follow this parabolic variation well, the reduced $\chi^{2}$ value comes out to quite large ($\chi_{red}^{2}=24.42$). This could be due to the fact that while the data points lie (more or less) on the fit curve at lower values of fundamental power; at higher values (from above 100 $\mu$W) some of the data points are scattered a little away from the fit curve. Since the errors on each of the data points are already small, this contributes to a large $\chi_{red}^{2}$ value. Moreover, as discussed in the paper by Andrae et.al. \cite{https://doi.org/10.48550/arxiv.1012.3754}, the $\chi^{2}$ test should not always be used as a test of goodness of fit, since for non-linear models, the degrees of freedom isn't always given by $df=N-p$ (where $N$ is the number of points and $p$ the number of fit parameters) and may not even be constant during the fitting procedure. 
+
+\subsection{Variation of harmonic power with polarization of fundamental wave}
+For this part of the experiment, we removed the beam splitting polarizer from the arrangement, so that the polarization of the fundamental wave can be changed by changing the rotation angle of the $\lambda/2$ plate. As done before, the angle of polarization is varied from $0 \degree$ to $180 \degree$ in increments of $2.5 \degree$. The recorded values can be found in Table \ref{tab:shpowvspol}. 

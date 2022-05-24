@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  23 MAY 2022 21:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  24 MAY 2022 02:21
 entering extended mode
 **./Labreport.tex
 (Labreport.tex
@@ -1100,13 +1100,21 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Labreport.bbl' found.
- (Labreport.bbl)
+ (Labreport.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                yarivqm
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 29.
 Package biblatex Info: Reference segment=0 on input line 29.
  [1
 
-{C:/Users/Mrunmoy Jena/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (Labrepo
-rt.toc
+{C:/Users/Mrunmoy Jena/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+(Labreport.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -1130,22 +1138,39 @@ Chapter 1.
 
 ]
 Chapter 2.
+(theory.tex [3
+
+]
+<phase-matching.png, id=162, 136.1085pt x 124.0635pt>
+File: phase-matching.png Graphic file (type png)
+<use phase-matching.png>
+Package pdftex.def Info: phase-matching.png  used on input line 36.
+(pdftex.def)             Requested size: 170.71652pt x 155.62418pt.
+
+
+LaTeX Warning: Reference `mes' on page 4 undefined on input line 37.
+
+
+LaTeX Warning: Reference `mes' on page 4 undefined on input line 37.
+
+[4]) [5 <./phase-matching.png>]
+Chapter 3.
 (Experiment.tex
-<./imagesandplots/pic1.png, id=106, 545.6385pt x 190.311pt>
+<./imagesandplots/pic1.png, id=179, 545.6385pt x 190.311pt>
 File: ./imagesandplots/pic1.png Graphic file (type png)
 <use ./imagesandplots/pic1.png>
 Package pdftex.def Info: ./imagesandplots/pic1.png  used on input line 11.
 (pdftex.def)             Requested size: 218.25153pt x 76.12303pt.
- [3
+ [6
 
  <./imagesandplots/pic1.png>]
-<./imagesandplots/attvsunattcalib.pdf, id=120, 578.16pt x 433.62pt>
+<./imagesandplots/attvsunattcalib.pdf, id=191, 578.16pt x 433.62pt>
 File: ./imagesandplots/attvsunattcalib.pdf Graphic file (type pdf)
 <use ./imagesandplots/attvsunattcalib.pdf>
 Package pdftex.def Info: ./imagesandplots/attvsunattcalib.pdf  used on input li
 ne 24.
 (pdftex.def)             Requested size: 407.66833pt x 305.74846pt.
- [4 <./imagesandplots/attvsunattcalib.pdf>]
+ [7 <./imagesandplots/attvsunattcalib.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 56.
@@ -1158,82 +1183,104 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 56.
 
-[5]
-<./imagesandplots/injcvsunattpow.pdf, id=204, 578.16pt x 433.62pt>
+[8]
+<./imagesandplots/injcvsunattpow.pdf, id=269, 578.16pt x 433.62pt>
 File: ./imagesandplots/injcvsunattpow.pdf Graphic file (type pdf)
 <use ./imagesandplots/injcvsunattpow.pdf>
 Package pdftex.def Info: ./imagesandplots/injcvsunattpow.pdf  used on input lin
 e 73.
 (pdftex.def)             Requested size: 407.66833pt x 305.74846pt.
- [6 <./imagesandplots/injcvsunattpow.pdf>] [7]
-<./imagesandplots/pic2.png, id=286, 721.4955pt x 195.73125pt>
+ [9 <./imagesandplots/injcvsunattpow.pdf>] [10]
+<./imagesandplots/pic2.png, id=351, 721.4955pt x 195.73125pt>
 File: ./imagesandplots/pic2.png Graphic file (type png)
 <use ./imagesandplots/pic2.png>
 Package pdftex.def Info: ./imagesandplots/pic2.png  used on input line 124.
 (pdftex.def)             Requested size: 288.59308pt x 78.2911pt.
-<./imagesandplots/variabattcalib.pdf, id=290, 578.16pt x 433.62pt>
+<./imagesandplots/variabattcalib.pdf, id=355, 578.16pt x 433.62pt>
 File: ./imagesandplots/variabattcalib.pdf Graphic file (type pdf)
 <use ./imagesandplots/variabattcalib.pdf>
 Package pdftex.def Info: ./imagesandplots/variabattcalib.pdf  used on input lin
 e 133.
 (pdftex.def)             Requested size: 407.66833pt x 305.74846pt.
- [8 <./imagesandplots/pic2.png> <./imagesandplots/variabattcalib.pdf>] [9]
-<./imagesandplots/pic3.png, id=389, 849.77475pt x 237.88875pt>
+ [11 <./imagesandplots/pic2.png> <./imagesandplots/variabattcalib.pdf>] [12]
+<./imagesandplots/pic3.png, id=454, 849.77475pt x 237.88875pt>
 File: ./imagesandplots/pic3.png Graphic file (type png)
 <use ./imagesandplots/pic3.png>
-Package pdftex.def Info: ./imagesandplots/pic3.png  used on input line 177.
+Package pdftex.def Info: ./imagesandplots/pic3.png  used on input line 172.
 (pdftex.def)             Requested size: 339.90387pt x 95.15381pt.
- [10 <./imagesandplots/pic3.png>]
-[11] [12]) [13] [14
+ [13 <./imagesandplots/pic3.png>] [14] [15]
+<./imagesandplots/shpowvsfundpow.pdf, id=487, 578.16pt x 433.62pt>
+File: ./imagesandplots/shpowvsfundpow.pdf Graphic file (type pdf)
+<use ./imagesandplots/shpowvsfundpow.pdf>
+Package pdftex.def Info: ./imagesandplots/shpowvsfundpow.pdf  used on input lin
+e 262.
+(pdftex.def)             Requested size: 407.66833pt x 305.74846pt.
+ [16] [17 <./imagesandplots/shpowvsfundpow.pdf>]
+Overfull \hbox (6.88629pt too wide) in paragraph at lines 290--290
+|[]\OT1/cmr/bx/n/12 Variation of har-monic power with po-lar-iza-tion of fun-da
+-men-tal wave| 
+ []
+
+) [18] [19
 
 ]
 Appendix A.
-(Appendix.tex [15
+(Appendix.tex [20
 
 ]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 81.
 
-[16] [17] [18]) [19] (Labreport.aux)
+[21] [22] [23]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 224.
+
+) [24] [25] (Labreport.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `Labreport.out' has not changed.
-(rerunfilecheck)             Checksum: F8968CB78B9D8F64AB3AA883A0082DF7;4144.
+(rerunfilecheck)             Checksum: C7E219D48853BAECEC365FDE0815DA5B;5722.
 Package logreq Info: Writing requests to 'Labreport.run.xml'.
 \openout1 = `Labreport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24689 strings out of 478864
- 463016 string characters out of 2845307
- 1259933 words of memory out of 3000000
- 42201 multiletter control sequences out of 15000+600000
+ 24751 strings out of 478864
+ 464161 string characters out of 2845307
+ 1260459 words of memory out of 3000000
+ 42234 multiletter control sequences out of 15000+600000
  419826 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,9n,81p,2119b,1678s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,10n,81p,2119b,1722s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super
 /cm-super-ts1.enc}<C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Mrunmoy Jena/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Mrun
-moy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pf
-b><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmmi10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Mrunmoy Jena/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Mrunm
-oy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/Mrun
+moy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb
+><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmex10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Mrunmoy Jena/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Mrunm
+oy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb>
 <C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr7.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmr9.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mrunmoy Jena/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Mrunmoy Je
-na/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/
-Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmtt10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/cm-super/sfrm1000.pfb>
-Output written on Labreport.pdf (21 pages, 448059 bytes).
+s/cm/cmmib10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Mrunmoy Jena/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Mrunmoy J
+ena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
+/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy7.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmti10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Mrunmoy Jena/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Labreport.pdf (27 pages, 547076 bytes).
 PDF statistics:
- 541 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 159 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 708 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
