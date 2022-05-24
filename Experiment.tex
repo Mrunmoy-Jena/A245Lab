@@ -140,14 +140,14 @@ The exact form of the fitting function is taken as follows:
 \begin{equation}
 P_{trans}=a+b\cos^{2}\left(\dfrac{\pi}{180}c(\theta-\theta_{0})\right)
 \end{equation}
-where the parameter $a$ represents the minimum transmitted power, $b$ represents the difference between the maximum and minimum transmitted power, $c$ being the factor by which the beam was rotated by the $\lambda /2$ plate and $\theta_{0}$ representing the angle of $\lambda /2$ plate at which maximum power was measured. The factor of $\pi / 180$ is simply there to convert the measured angles in degrees to radians since the cosine function, \texttt{numpy.cos()} used in \textit{Python} accepts angles in radians. By visually inspecting the plots of the data points, the initial guess parameters for the fitting function are taken as: $a=0$, $b=130$, $c=2$ (expected to be 2 since a rotation of the $\lambda /2$ plate by $\theta$ would rotate plane of polarization of the initial beam by 2$\theta$), $\theta_{0}=0$. After fitting, the optimal parameters come out to be:
+where the parameter $a$ represents the minimum transmitted power, $b$ represents the difference between the maximum and minimum transmitted power, $c$ being the factor by which the beam was rotated by the $\lambda /2$ plate and $\theta_{0}$ representing the angle of $\lambda /2$ plate at which maximum power was measured. The factor of $\pi / 180$ is simply there to convert the measured angles in degrees to radians since the cosine function, \texttt{numpy.cos()} used in \textit{Python} accepts angles in radians. By visually inspecting the plots of the data points, the initial guess parameters for the fitting function are taken as: $a=0\ \mu\rm{W}$, $b=130\ \mu\rm{W}$, $c=2$ (expected to be 2 since a rotation of the $\lambda /2$ plate by $\theta$ would rotate plane of polarization of the initial beam by 2$\theta$), $\theta_{0}=0\degree$. After fitting, the optimal parameters come out to be:
 \begin{align*}
 a&=(0.540\pm 0.102)\ \mu\rm{W}\\
 b&=(129.561\pm 0.167)\ \mu\rm{W}\\
 c&=1.9983\pm 0.0007\\
 \theta_{0}&=(26.590\pm 0.027)\degree
 \end{align*}
-
+\label{type1ornot}
 As the data in this case is free from the complications discussed in Section \ref{Calib}, we use the $\chi^{2}$ test for goodness of fit. The reduced $\chi^{2}$ value comes out to be 1.47, which tells us that that the model $\cos^{2}\theta$ curve fits the data well enough. 
 
 Given that we now have a calibration curve that describes the variation of transmitted fundamental power with the polarization angle, it is possible to measure just the variation of second harmonic power with the angle, $\theta$ to in turn get the dependence of second harmonic power on fundamental power, using the calibration curve. \label{variablecalib}
@@ -274,7 +274,7 @@ Thereforem to fit this curve, we choose a model following general form of a para
 \begin{equation}
 P_{SH}=aP_{F}^{2}+bP_{F}+c
 \end{equation}
-We take initial guess parameters as: $a=1/500$ (we used this because, $x$ value of 100 gives a $y$ value of around 20; assuming quadratic dependence, this would give the factor to be multiplied with $x^{2}$ as $20/10000=1/500$), $b=0$ (linear dependence is assumed to be very small) and $c=0$ (no offset can be seen from the $x$-axis). The curve fitting module yields the following optimal parameter values:
+We take initial guess parameters as: $a=1/500\ \mu\rm{W}^{-1}$ (we used this because, $x$ value of 100 gives a $y$ value of around 20; assuming quadratic dependence, this would give the factor to be multiplied with $x^{2}$ as $20/10000=1/500$), $b=0$ (linear dependence is assumed to be very small) and $c=0\ \mu\rm{W}$ (no offset can be seen from the $x$-axis). The curve fitting module yields the following optimal parameter values:
 \begin{align*}
 a&=(0.0022\pm 9.3988\times 10^{-6})\ \mu\rm{W}^{-1}\\
 b&=-0.0031\pm 0.0013\\
@@ -304,11 +304,12 @@ P_{SH}&=a\cos^{4}\left(\dfrac{\pi}{180}b(\theta-\theta_{0})\right)+c\\
 P_{SH}&=a\cos^{2}\left(\dfrac{\pi}{180}b(\theta-\theta_{0})\right)\sin^{2}\left(\dfrac{\pi}{180}b(\theta-\theta_{0})\right)+c
 \end{align}
 
-These two models are then made to fit onto the observed data and the two fits are compared. It can be seen clearly from the plot that the model for Type I phase matching fits the data much better than the model for Type II phase matching. Although the reduced $\chi_{red}^{2}$ are extremely high for the models ($\chi_{red}^{2}=278.54$ for Type I and $\chi_{red}^{2}=1647.05$ for Type II), this comes as no surprise as even for the $\cos^{4}\theta$ many of the data points lie just outside the best fit curve. Moreover, the factors discussed in Section \ref{chisqdiscuss} also play a role in these large values of $\chi_{red}^{2}$. Despite all this, since the $\chi_{red}^{2}$ for the $\cos^{4}\theta$ model is much lower than that for the $\cos^{2}\theta\sin^{2}\theta$ model, we conclude that the data is best described by $\cos^{2}\theta$ model and therefore Type I phase matching has been attained. The optimal parameters of the $\cos^{2}\theta$ fit are:
+These two models are then made to fit onto the observed data and the two fits are compared. It can be seen clearly from the plot that the model for Type I phase matching fits the data much better than the model for Type II phase matching. Although the reduced $\chi_{red}^{2}$ are extremely high for the models ($\chi_{red}^{2}=278.54$ for Type I and $\chi_{red}^{2}=1647.05$ for Type II), this comes as no surprise as even for the $\cos^{4}\theta$ many of the data points lie just outside the best fit curve. Moreover, the factors discussed at the end of Section \ref{chisqdiscuss} also play a role in these large values of $\chi_{red}^{2}$. Despite all this, since the $\chi_{red}^{2}$ for the $\cos^{4}\theta$ model is much lower than that for the $\cos^{2}\theta\sin^{2}\theta$ model, we conclude that the data is best described by $\cos^{2}\theta$ model and therefore Type I phase matching has been attained. The initial guess parameters for the $\cos^{2}\theta$ fit were chosen as: $a=50\ \mu\rm{W}$, $b=2$, $\theta_{0}=25\degree$ and $c=0\ \mu \rm{W}$. The optimal parameters of this fit are:
 \begin{align*}
 a&=(40.671\pm 0.032)\ \mu\rm{W}\\
 b&=1.99278\pm 0.00042\\
 c&=(11.363\pm 0.017)\ \mu \rm{W}\\
 \theta_{0}&=(25.269\pm 0.015)\degree
 \end{align*}
+Physically, the parameter $a$ represents the maximum value of power recorded, $b$ indicates the periodicity of the $\cos^{4}\theta$ variation, $c$ gives the offset reading and $\theta_{0}$ gives the phase of the modelled function. It is nice to see that the periodicity, $b$ and phase, $c$ remain nearly the same as the values obtained during calibration in Section \ref{type1ornot}. This again confirms that we had indeed achieved Type I phase matching for this experiment.
 

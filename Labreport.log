@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  24 MAY 2022 04:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  24 MAY 2022 04:49
 entering extended mode
 **./Labreport.tex
 (Labreport.tex
@@ -1236,10 +1236,10 @@ Package logreq Info: Writing requests to 'Labreport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24765 strings out of 478864
- 464664 string characters out of 2845307
- 1260712 words of memory out of 3000000
- 42242 multiletter control sequences out of 15000+600000
+ 24766 strings out of 478864
+ 464676 string characters out of 2845307
+ 1260780 words of memory out of 3000000
+ 42243 multiletter control sequences out of 15000+600000
  419826 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,10n,81p,2119b,1722s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1266,9 +1266,9 @@ m/cmsy7.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmti10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Mrunmoy Jena/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Labreport.pdf (28 pages, 586447 bytes).
+Output written on Labreport.pdf (28 pages, 587368 bytes).
 PDF statistics:
- 795 PDF objects out of 1000 (max. 8388607)
+ 796 PDF objects out of 1000 (max. 8388607)
  107 named destinations out of 1000 (max. 500000)
  238 words of extra memory for PDF output out of 10000 (max. 10000000)
 
