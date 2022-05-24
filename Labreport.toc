@@ -46,4 +46,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.2}Variation of harmonic power with polarization of fundamental wave}{18}{subsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{20}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Appendix}{21}{appendix.A}%

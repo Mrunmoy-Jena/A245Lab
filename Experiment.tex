@@ -285,13 +285,30 @@ We find that while $a$ has a very small error relative to its calculated value, 
 \eta=(0.0022\pm 9.3988\times 10^{-6})\ \mu\rm{W}^{-1}
 \end{equation}
 
+\label{chisqdiscuss}
 Although it can be clearly seen that the data points follow this parabolic variation well, the reduced $\chi^{2}$ value comes out to quite large ($\chi_{red}^{2}=24.42$). This could be due to the fact that while the data points lie (more or less) on the fit curve at lower values of fundamental power; at higher values (from above 100 $\mu$W) some of the data points are scattered a little away from the fit curve. Since the errors on each of the data points are already small, this contributes to a large $\chi_{red}^{2}$ value. Moreover, as discussed in the paper by Andrae et.al. \cite{https://doi.org/10.48550/arxiv.1012.3754}, the $\chi^{2}$ test should not always be used as a test of goodness of fit, since for non-linear models, the degrees of freedom isn't always given by $df=N-p$ (where $N$ is the number of points and $p$ the number of fit parameters) and may not even be constant during the fitting procedure. 
 
 \subsection{Variation of harmonic power with polarization of fundamental wave}
-For this part of the experiment, we removed the beam splitting polarizer from the arrangement, so that the polarization of the fundamental wave could be changed by changing the rotation angle of the $\lambda/2$ plate. As done before, the angle of polarization was varied from $0 \degree$ to $180 \degree$ in increments of $2.5 \degree$. The recorded values can be found in Table \ref{tab:shpowvspol}. 
+For this part of the experiment, we removed the beam splitting polarizer from the arrangement, so that the polarization of the fundamental wave could be changed by changing the rotation angle of the $\lambda/2$ plate. As done before, the angle of polarization was varied from $0 \degree$ to $180 \degree$ in increments of $2.5 \degree$. The recorded values can be found in Table \ref{tab:shpowvspol}. The plot of the second harmonic power vs the polarization angle of the fundamental beam is displayed in Figure \ref{figexpt8}
+
+\begin{figure}[H]
+\includegraphics[width=0.9\textwidth]{./imagesandplots/shpowvsfundpolarization.pdf}
+\centering
+\caption{Plot of the second harmonic (unattenuated) power vs the angle of polarization of the fundamental beam}
+\label{figexpt8}
+\end{figure}
 
 While Type I phase matching gives a dependence of $P_{SH}\propto \cos^{4}\theta$, Type II phase matching condition would give a $P_{SH}\propto \cos^{2}\theta\sin^{2}\theta$ dependence. In order to find which of these phase matching conditions holds true for our experiment, we design two non linear fits of the form:
 \begin{align}
 P_{SH}&=a\cos^{4}\left(\dfrac{\pi}{180}b(\theta-\theta_{0})\right)+c\\
 P_{SH}&=a\cos^{2}\left(\dfrac{\pi}{180}b(\theta-\theta_{0})\right)\sin^{2}\left(\dfrac{\pi}{180}b(\theta-\theta_{0})\right)+c
 \end{align}
+
+These two models are then made to fit onto the observed data and the two fits are compared. It can be seen clearly from the plot that the model for Type I phase matching fits the data much better than the model for Type II phase matching. Although the reduced $\chi_{red}^{2}$ are extremely high for the models ($\chi_{red}^{2}=278.54$ for Type I and $\chi_{red}^{2}=1647.05$ for Type II), this comes as no surprise as even for the $\cos^{4}\theta$ many of the data points lie just outside the best fit curve. Moreover, the factors discussed in Section \ref{chisqdiscuss} also play a role in these large values of $\chi_{red}^{2}$. Despite all this, since the $\chi_{red}^{2}$ for the $\cos^{4}\theta$ model is much lower than that for the $\cos^{2}\theta\sin^{2}\theta$ model, we conclude that the data is best described by $\cos^{2}\theta$ model and therefore Type I phase matching has been attained. The optimal parameters of the $\cos^{2}\theta$ fit are:
+\begin{align*}
+a&=(40.671\pm 0.032)\ \mu\rm{W}\\
+b&=1.99278\pm 0.00042\\
+c&=(11.363\pm 0.017)\ \mu \rm{W}\\
+\theta_{0}&=(25.269\pm 0.015)\degree
+\end{align*}
+
