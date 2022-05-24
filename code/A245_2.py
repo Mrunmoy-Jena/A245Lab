@@ -8,8 +8,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 
-def func(x, a, h, k):
-    return(a*np.sinc(x - h) + k)
+def func(x, a, h, k, b):
+    return(a*np.sinc(b*(x - h)) + k)
 
 def redchi2(f, x, y, y_err, *args):
     sum = 0
@@ -28,7 +28,7 @@ y_data_err = data[1:, 3]
 x_model = np.arange(min(x_data), max(x_data), 0.1)
 
 k = y_data.argmax()
-p0 = [y_data[k], x_data[k], y_data.mean()]
+p0 = [y_data[k], x_data[k], y_data.mean(), 2]
 popt, pcov = curve_fit(func, x_data, y_data, p0=p0)
 
 print(popt)
