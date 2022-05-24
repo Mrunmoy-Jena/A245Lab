@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 
 def func(x, a, h, k, b):
-    return(a*np.sinc(b*(x - h)) + k)
+    return(a*np.sinc(b*(x - h))**2 + k)
 
 def redchi2(f, x, y, y_err, *args):
     sum = 0
@@ -39,7 +39,7 @@ plt.plot(x_model, func(x_model, *popt), color = 'red', label = 'fit')
 plt.xlabel('Crystal Temperature - T($^\\circ$C)')
 plt.ylabel('Second Harmonic Power - $P_{SH, unatt.}$($\\mu W$)')
 plt.legend(loc = 'upper left')
-plt.savefig('shpowvstemp.png', dpi = 1200)
+#plt.savefig('shpowvstemp.png', dpi = 1200)
 plt.show()
 
 print(redchi2(func, x_data, y_data, x_data_err, *popt))
